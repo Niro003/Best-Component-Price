@@ -11,7 +11,8 @@ export class AppComponent {
       {link:'home',label:'Home'},
       {link:'about',label:'About'},
       {link:'clients',label:'Clients'},
-      {link:'contact',label:'Contacts'}
+      {link:'blog',label:'Blog'},
+      {link:'contact',label:'Contact Me'}
   ];
 
 }

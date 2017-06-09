@@ -1,12 +1,12 @@
 <div fxLayout="column">
   <div fxLayout="row">
-    <h1 fxFlex="60" fxFlexOffset.gt-xs="20">
+    <h1 fxFlex="60" fxFlexOffset.gt-xs="20" style="background-color: #00acc1">
       Nira-Solution
     </h1>
   </div>
   <div fxLayout="row" >
-      <nav md-tab-nav-bar fxShow="false" fxShow.gt-xs fxFlexOffset.gt-xs="20">
-        <a md-tab-link fxFlex.gt-sm="10"
+      <nav md-tab-nav-bar fxShow="false" fxShow.gt-xs fxFlexOffset.gt-xs="20" fxFlex="60">
+        <a md-tab-link
            *ngFor="let link of navLinks"
            [routerLink]="link.link"
            routerLinkActive #rla="routerLinkActive"
