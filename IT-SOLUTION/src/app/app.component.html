@@ -1,23 +1,26 @@
-<h1>
-  Nira-Solution
-</h1>
-<md-toolbar color="accent" >
-  <nav md-tab-nav-bar fxLayout="row" fxShow="false" fxShow.gt-xs>
-    <a md-tab-link
-       *ngFor="let link of navLinks"
-       [routerLink]="link.link"
-       routerLinkActive #rla="routerLinkActive"
-       [active]="rla.isActive">
-      {{link.label}}
-    </a>
-  </nav>
-  <button md-button [mdMenuTriggerFor]="menu" fxHide="false" fxHide.gt-xs>
-    <md-icon>menu</md-icon>
-  </button>
-<!--https://stackoverflow.com/a/41882289/4315172-->
-</md-toolbar>
-<md-menu x-position="before" #menu="mdMenu">
-  <button md-menu-item *ngFor="let link of navLinks" routerLink="{{link.link}}">{{link.label}}</button>
-</md-menu>
-<router-outlet></router-outlet>
-<p></p>
+<div fxLayout="column">
+  <div fxLayout="row">
+    <h1 fxFlex="60" fxFlexOffset.gt-xs="20">
+      Nira-Solution
+    </h1>
+  </div>
+  <div fxLayout="row" >
+      <nav md-tab-nav-bar fxShow="false" fxShow.gt-xs fxFlexOffset.gt-xs="20">
+        <a md-tab-link fxFlex.gt-sm="10"
+           *ngFor="let link of navLinks"
+           [routerLink]="link.link"
+           routerLinkActive #rla="routerLinkActive"
+           [active]="rla.isActive">
+          {{link.label}}
+        </a>
+      </nav>
+      <button md-button [mdMenuTriggerFor]="menu" fxHide="false" fxHide.gt-xs>
+        <md-icon>menu</md-icon>
+      </button>
+    <!--https://stackoverflow.com/a/41882289/4315172-->
+    <md-menu x-position="before" #menu="mdMenu">
+     <button md-menu-item *ngFor="let link of navLinks" routerLink="{{link.link}}">{{link.label}}</button>
+    </md-menu>
+  </div>
+  <router-outlet></router-outlet>
+</div>
