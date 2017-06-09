@@ -17,12 +17,14 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { ClientsComponent } from './clients/clients.component';
 import { BlogComponent } from './blog/blog.component';
+import { SiteNoticeComponent } from './site-notice/site-notice.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'clients', component: ClientsComponent },
   { path: 'blog', component: BlogComponent },
+  { path: 'site/notice', component: SiteNoticeComponent },
   {
     path: 'contact',
     component: ContactComponent,
@@ -43,7 +45,8 @@ const appRoutes: Routes = [
     ContactComponent,
     HomeComponent,
     ClientsComponent,
-    BlogComponent
+    BlogComponent,
+    SiteNoticeComponent
   ],
   imports: [
     BrowserModule,

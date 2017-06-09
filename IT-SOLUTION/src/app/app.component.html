@@ -4,15 +4,16 @@
       Nira-Solution
     </h1>
   </div>
-  <div fxLayout="row" >
-      <nav md-tab-nav-bar fxShow="false" fxShow.gt-xs fxFlexOffset.gt-xs="20" fxFlex="60">
+  <div fxLayout="row" fxLayoutAlign="none none">
+      <nav md-tab-nav-bar fxShow="false" fxShow.gt-xs fxFlexOffset.gt-xs="20" fxLayout="row" fxFlex="60">
+        <div *ngFor="let link of navLinks" fxFlex="20">
         <a md-tab-link
-           *ngFor="let link of navLinks"
            [routerLink]="link.link"
            routerLinkActive #rla="routerLinkActive"
            [active]="rla.isActive">
           {{link.label}}
         </a>
+        </div>
       </nav>
       <button md-button [mdMenuTriggerFor]="menu" fxHide="false" fxHide.gt-xs>
         <md-icon>menu</md-icon>

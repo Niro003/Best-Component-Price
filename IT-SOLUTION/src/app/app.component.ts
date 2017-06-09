@@ -12,7 +12,8 @@ export class AppComponent {
       {link:'about',label:'About'},
       {link:'clients',label:'Clients'},
       {link:'blog',label:'Blog'},
-      {link:'contact',label:'Contact Me'}
+      {link:'contact',label:'Contact Me'},
+      {link:'site/notice',label:'Site Notice'}
   ];
 
 }
