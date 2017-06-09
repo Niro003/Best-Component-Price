@@ -1,14 +1,23 @@
 <h1>
-  IT-Solution with know-how
+  Nira-Solution
 </h1>
-<nav md-tab-nav-bar style="margin-left: 200px;margin-right: 200px;">
-  <a md-tab-link
-     *ngFor="let link of navLinks"
-     [routerLink]="link.link"
-     routerLinkActive #rla="routerLinkActive"
-     [active]="rla.isActive">
-    {{link.label}}
-  </a>
-</nav>
+<md-toolbar color="accent" >
+  <nav md-tab-nav-bar fxLayout="row" fxShow="false" fxShow.gt-xs>
+    <a md-tab-link
+       *ngFor="let link of navLinks"
+       [routerLink]="link.link"
+       routerLinkActive #rla="routerLinkActive"
+       [active]="rla.isActive">
+      {{link.label}}
+    </a>
+  </nav>
+  <button md-button [mdMenuTriggerFor]="menu" fxHide="false" fxHide.gt-xs>
+    <md-icon>menu</md-icon>
+  </button>
+<!--https://stackoverflow.com/a/41882289/4315172-->
+</md-toolbar>
+<md-menu x-position="before" #menu="mdMenu">
+  <button md-menu-item *ngFor="let link of navLinks" routerLink="{{link.link}}">{{link.label}}</button>
+</md-menu>
 <router-outlet></router-outlet>
 <p></p>
