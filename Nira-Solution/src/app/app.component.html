@@ -1,13 +1,18 @@
-<md-toolbar color="accent">
-  <img src="../assets/coollogo_com-22234983.png" width="300px" fxFlexOffset.gt-sm="10"/>
-  <nav md-tab-nav-bar fxShow="false" fxShow.gt-sm fxFlex.gt-sm="60">
-    <a md-tab-link *ngFor="let link of navLinks"
-       [routerLink]="link.link"
-       routerLinkActive #rla="routerLinkActive"
-       [active]="rla.isActive">
-      {{link.label}}
-    </a>
-  </nav>
+<md-toolbar color="accent" fxLayout.gt-sm="row" fxLayoutAlign.gt-sm="center center">
+  <div  >
+    <img src="../assets/coollogo_com-22234983.png" width="100"/>
+  </div>
+  <div >
+    <nav md-tab-nav-bar fxShow="false" fxShow.gt-sm>
+      <a md-tab-link *ngFor="let link of navLinks"
+         [routerLink]="link.link"
+         routerLinkActive #rla="routerLinkActive"
+         [active]="rla.isActive">
+        {{link.label}}
+      </a>
+    </nav>
+  </div>
+  <div>
   <button md-button [mdMenuTriggerFor]="menu" fxHide="false" fxHide.gt-sm>
     <md-icon>menu</md-icon>
   </button>
@@ -15,6 +20,7 @@
   <md-menu x-position="before" #menu="mdMenu">
     <button md-menu-item *ngFor="let link of navLinks" routerLink="{{link.link}}">{{link.label}}</button>
   </md-menu>
+  </div>
 </md-toolbar>
   <div fxLayout="row" fxLayoutAlign="none none">
 

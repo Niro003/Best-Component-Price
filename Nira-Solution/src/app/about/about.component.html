@@ -1,3 +1,33 @@
-<p>
-  about works!
-</p>
+<h1>Ausbildung</h1>
+<md-list>
+  <md-list-item *ngFor="let message of messagesEducation">
+    <md-icon md-list-icon>note</md-icon>
+    <h3 md-line> {{message.from}} </h3>
+    <p md-line>
+      <span> {{message.subject}} </span>
+      <span class="demo-2"> -- {{message.content}} </span>
+    </p>
+  </md-list-item>
+</md-list>
+<h1>Berufs-Erfahrung</h1>
+<md-list>
+  <md-list-item *ngFor="let message of messagesJobExp">
+    <md-icon md-list-icon>note</md-icon>
+    <h3 md-line> {{message.from}} </h3>
+    <p md-line>
+      <span> {{message.subject}} </span>
+      <span class="demo-2"> -- {{message.content}} </span>
+    </p>
+  </md-list-item>
+</md-list>
+<h1>Projekte <small>(kleinere Projekte sind nicht erwähnt)</small></h1>
+<md-list>
+  <md-list-item *ngFor="let message of messagesProjects">
+    <md-icon md-list-icon>note</md-icon>
+    <h3 md-line> {{message.from}} </h3>
+    <p md-line>
+      <span> {{message.subject}} </span>
+      <span class="demo-2"> -- {{message.content}} </span>
+    </p>
+  </md-list-item>
+</md-list>
