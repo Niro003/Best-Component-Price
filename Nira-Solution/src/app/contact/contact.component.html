@@ -4,18 +4,42 @@
     <p>You can contact me on :<a href="https://www.facebook.com/nico.grill.7?ref=bookmarks"><img style="height: 50px;width: auto" src="../../assets/if_social_facebook_button_blue_60825.png"/></a>
       <a href="https://twitter.com/Nirojan_"><img style="height: 50px;width: auto" src="../../assets/if_social_twitter_box_white_60858.png"/></a>
     <p>or directly:</p>
-    <table cellspacing="0">
+    <table >
       <tr>
-        <td><md-input-container>
-          <input mdInput placeholder="First name">
-        </md-input-container></td>
-        <td><md-input-container>
-          <input mdInput placeholder="Last Name">
-        </md-input-container></td>
+        <td>
+          <md-input-container>
+            <input mdInput placeholder="First name">
+          </md-input-container>
+        </td>
+        <td>
+          <md-input-container>
+            <input mdInput placeholder="Last Name">
+          </md-input-container>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <md-input-container style="width: 100%">
+            <input mdInput placeholder="Email" [formControl]="emailFormControl">
+            <md-error *ngIf="emailFormControl.hasError('pattern')">
+              Please enter a valid email address
+            </md-error>
+            <md-error *ngIf="emailFormControl.hasError('required')">
+              Email is <strong>required</strong>
+            </md-error>
+          </md-input-container>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+
+        </td>
       </tr>
     </table>
-    <md-input-container>
-      <textarea mdInput placeholder="Message"></textarea>
+    <md-input-container style="width : 100%;">
+      <textarea mdInput #message maxlength="500" placeholder="Message"></textarea>
+      <md-hint align="start"><strong>Don't disclose personal info</strong> </md-hint>
+      <md-hint align="end">{{message.value.length}} / 500</md-hint>
     </md-input-container>
     <button md-fab><md-icon>send</md-icon></button>
   </form>

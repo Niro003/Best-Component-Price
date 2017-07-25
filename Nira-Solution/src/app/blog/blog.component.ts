@@ -6,7 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
-
+  blogEntries:any =
+    [
+      {
+        from:'Angular',
+        subject:'Performance testing',
+        content:'Die gute alte performance...'
+      }
+    ];
   constructor() { }
 
   ngOnInit() {
