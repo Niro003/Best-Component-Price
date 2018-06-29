@@ -1,11 +1,11 @@
 <h1>Angebot</h1>
-<md-list>
-  <md-list-item *ngFor="let message of messages">
-    <md-icon md-list-icon>note</md-icon>
-    <h3 md-line> {{message.from}} </h3>
-    <p md-line>
+<mat-list>
+  <mat-list-item *ngFor="let message of messages">
+    <mat-icon mat-list-icon>note</mat-icon>
+    <h3 mat-line> {{message.from}} </h3>
+    <p mat-line>
       <span> {{message.subject}} </span>
       <span class="demo-2"> -- {{message.content}} </span>
     </p>
-  </md-list-item>
-</md-list>
+  </mat-list-item>
+</mat-list>

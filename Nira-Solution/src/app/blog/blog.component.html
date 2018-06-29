@@ -1,10 +1,10 @@
-<md-list>
-  <md-list-item *ngFor="let blog of blogEntries">
-    <md-icon md-list-icon>note</md-icon>
-    <h3 md-line> {{blog.from}} </h3>
-    <p md-line>
+<mat-list>
+  <mat-list-item *ngFor="let blog of blogEntries">
+    <mat-icon mat-list-icon>note</mat-icon>
+    <h3 mat-line> {{blog.from}} </h3>
+    <p mat-line>
       <span> {{blog.subject}} </span>
       <span class="demo-2"> -- {{blog.content}} </span>
     </p>
-  </md-list-item>
-</md-list>
+  </mat-list-item>
+</mat-list>

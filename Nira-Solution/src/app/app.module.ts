@@ -4,8 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {
-  MdMenuModule, MdGridListModule, MdInputModule, MdButtonModule, MdCheckboxModule, MdTabsModule,
-  MaterialModule
+  MatMenuModule, MatGridListModule, MatInputModule, MatButtonModule, MatCheckboxModule, MatTabsModule, MatIconModule, MatToolbarModule, MatListModule  
 } from '@angular/material';
 import {FlexLayoutModule} from "@angular/flex-layout";
 import 'hammerjs';
@@ -55,14 +54,17 @@ const appRoutes: Routes = [
     ReactiveFormsModule,
     HttpModule,
     BrowserAnimationsModule,
-    MdInputModule,
-    MdGridListModule,
-    MdButtonModule,
-    MdCheckboxModule,
-    MdTabsModule,
+    MatInputModule,
+    MatGridListModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatTabsModule,
     FlexLayoutModule,
-    MdMenuModule,
-    MaterialModule
+    MatMenuModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatListModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

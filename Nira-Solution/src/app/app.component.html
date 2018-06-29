@@ -1,10 +1,10 @@
-<md-toolbar color="accent" fxLayout.gt-sm="row" fxLayoutAlign.gt-sm="center center">
+<mat-toolbar color="accent" fxLayout.gt-sm="row" fxLayoutAlign.gt-sm="center center">
   <div  >
     <img src="../assets/coollogo_com-22234983.png" width="100"/>
   </div>
   <div >
-    <nav md-tab-nav-bar fxShow="false" fxShow.gt-sm>
-      <a md-tab-link *ngFor="let link of navLinks"
+    <nav mat-tab-nav-bar fxShow="false" fxShow.gt-sm>
+      <a mat-tab-link *ngFor="let link of navLinks"
          [routerLink]="link.link"
          routerLinkActive #rla="routerLinkActive"
          [active]="rla.isActive">
@@ -13,15 +13,15 @@
     </nav>
   </div>
   <div>
-  <button md-button [mdMenuTriggerFor]="menu" fxHide="false" fxHide.gt-sm>
-    <md-icon>menu</md-icon>
+  <button mat-button [matMenuTriggerFor]="menu" fxHide="false" fxHide.gt-sm>
+    <mat-icon>menu</mat-icon>
   </button>
   <!--https://stackoverflow.com/a/41882289/4315172-->
-  <md-menu x-position="before" #menu="mdMenu">
-    <button md-menu-item *ngFor="let link of navLinks" routerLink="{{link.link}}">{{link.label}}</button>
-  </md-menu>
+  <mat-menu x-position="before" #menu="matMenu">
+    <button mat-menu-item *ngFor="let link of navLinks" routerLink="{{link.link}}">{{link.label}}</button>
+  </mat-menu>
   </div>
-</md-toolbar>
+</mat-toolbar>
   <div fxLayout="row" fxLayoutAlign="none none">
 
   </div>

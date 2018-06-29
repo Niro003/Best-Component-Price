@@ -1,33 +1,33 @@
 <h1>Ausbildung</h1>
-<md-list>
-  <md-list-item *ngFor="let message of messagesEducation">
-    <md-icon md-list-icon>note</md-icon>
-    <h3 md-line> {{message.from}} </h3>
-    <p md-line>
+<mat-list>
+  <mat-list-item *ngFor="let message of messagesEducation">
+    <mat-icon mat-list-icon>note</mat-icon>
+    <h3 mat-line> {{message.from}} </h3>
+    <p mat-line>
       <span> {{message.subject}} </span>
       <span class="demo-2"> -- {{message.content}} </span>
     </p>
-  </md-list-item>
-</md-list>
+  </mat-list-item>
+</mat-list>
 <h1>Berufs-Erfahrung</h1>
-<md-list>
-  <md-list-item *ngFor="let message of messagesJobExp">
-    <md-icon md-list-icon>note</md-icon>
-    <h3 md-line> {{message.from}} </h3>
-    <p md-line>
+<mat-list>
+  <mat-list-item *ngFor="let message of messagesJobExp">
+    <mat-icon mat-list-icon>note</mat-icon>
+    <h3 mat-line> {{message.from}} </h3>
+    <p mat-line>
       <span> {{message.subject}} </span>
       <span class="demo-2"> -- {{message.content}} </span>
     </p>
-  </md-list-item>
-</md-list>
+  </mat-list-item>
+</mat-list>
 <h1>Projekte <small>(kleinere Projekte sind nicht erwähnt)</small></h1>
-<md-list>
-  <md-list-item *ngFor="let message of messagesProjects">
-    <md-icon md-list-icon>note</md-icon>
-    <h3 md-line> {{message.from}} </h3>
-    <p md-line>
+<mat-list>
+  <mat-list-item *ngFor="let message of messagesProjects">
+    <mat-icon mat-list-icon>note</mat-icon>
+    <h3 mat-line> {{message.from}} </h3>
+    <p mat-line>
       <span> {{message.subject}} </span>
       <span class="demo-2"> -- {{message.content}} </span>
     </p>
-  </md-list-item>
-</md-list>
+  </mat-list-item>
+</mat-list>
