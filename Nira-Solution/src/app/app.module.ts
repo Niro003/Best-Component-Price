@@ -4,12 +4,22 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {
-  MatMenuModule, MatGridListModule, MatInputModule, MatButtonModule, MatCheckboxModule, MatTabsModule, MatIconModule, MatToolbarModule, MatListModule  
+  MatMenuModule,
+  MatGridListModule,
+  MatInputModule,
+  MatButtonModule,
+  MatCheckboxModule,
+  MatTabsModule,
+  MatIconModule,
+  MatToolbarModule,
+  MatListModule,
+  MatCardModule,
+  MatExpansionModule
 } from '@angular/material';
-import {FlexLayoutModule} from "@angular/flex-layout";
+import {FlexLayoutModule} from '@angular/flex-layout';
 import 'hammerjs';
 import { AppComponent } from './app.component';
-import {Routes, RouterModule} from "@angular/router";
+import {Routes, RouterModule} from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ContactComponent } from './contact/contact.component';
@@ -64,7 +74,8 @@ const appRoutes: Routes = [
     MatIconModule,
     MatToolbarModule,
     MatListModule,
-    MatInputModule
+    MatCardModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

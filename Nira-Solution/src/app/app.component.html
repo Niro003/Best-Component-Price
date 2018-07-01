@@ -1,28 +1,33 @@
-<mat-toolbar color="accent" fxLayout.gt-sm="row" fxLayoutAlign.gt-sm="center center">
-  <div  >
-    <img src="../assets/coollogo_com-22234983.png" width="100"/>
-  </div>
-  <div >
-    <nav mat-tab-nav-bar fxShow="false" fxShow.gt-sm>
-      <a mat-tab-link *ngFor="let link of navLinks"
-         [routerLink]="link.link"
-         routerLinkActive #rla="routerLinkActive"
-         [active]="rla.isActive">
-        {{link.label}}
-      </a>
-    </nav>
-  </div>
-  <div>
-  <button mat-button [matMenuTriggerFor]="menu" fxHide="false" fxHide.gt-sm>
-    <mat-icon>menu</mat-icon>
-  </button>
-  <!--https://stackoverflow.com/a/41882289/4315172-->
-  <mat-menu x-position="before" #menu="matMenu">
-    <button mat-menu-item *ngFor="let link of navLinks" routerLink="{{link.link}}">{{link.label}}</button>
-  </mat-menu>
-  </div>
-</mat-toolbar>
-  <div fxLayout="row" fxLayoutAlign="none none">
+<article fxLayout="column">
+  <!-- header -->
+  <header fxLayout.gt-sm="row" fxLayoutAlign.gt-sm="center center">
+    <mat-toolbar color="primary">
+      <div>
+        <img src="../assets/coollogo_com-22234983.png" width="100" />
+      </div>
+      <div>
+        <nav mat-tab-nav-bar fxShow="false" fxShow.gt-sm>
+          <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.link" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
+            {{link.label}}
+          </a>
+        </nav>
+      </div>
+      <div>
+        <button mat-button [matMenuTriggerFor]="menu" fxHide="false" fxHide.gt-sm>
+          <mat-icon>menu</mat-icon>
+        </button>
+        <!--https://stackoverflow.com/a/41882289/4315172-->
+        <mat-menu x-position="before" #menu="matMenu">
+          <button mat-menu-item *ngFor="let link of navLinks" routerLink="{{link.link}}">{{link.label}}</button>
+        </mat-menu>
+      </div>
+    </mat-toolbar>
+  </header>
+  <!-- content -->
+  <main fxLayout.gt-sm="row" fxLayoutAlign.gt-sm="center center">
+    <router-outlet></router-outlet>
+  </main>
 
-  </div>
-  <router-outlet></router-outlet>
+  <!-- footer -->
+  <footer fxLayout="row" style="background:black; height: 200px;"></footer>
+</article>
