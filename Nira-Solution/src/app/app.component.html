@@ -2,25 +2,48 @@
   <!-- header -->
   <header fxLayout.gt-sm="row" fxLayoutAlign.gt-sm="center center">
     <mat-toolbar color="primary">
-      <div>
-        <img src="../assets/coollogo_com-22234983.png" width="100" />
-      </div>
-      <div>
-        <nav mat-tab-nav-bar fxShow="false" fxShow.gt-sm>
-          <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.link" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
-            {{link.label}}
-          </a>
-        </nav>
-      </div>
-      <div>
-        <button mat-button [matMenuTriggerFor]="menu" fxHide="false" fxHide.gt-sm>
-          <mat-icon>menu</mat-icon>
-        </button>
-        <!--https://stackoverflow.com/a/41882289/4315172-->
-        <mat-menu x-position="before" #menu="matMenu">
-          <button mat-menu-item *ngFor="let link of navLinks" routerLink="{{link.link}}">{{link.label}}</button>
-        </mat-menu>
-      </div>
+      <mat-toolbar-row>
+        <div>
+          <img src="../assets/coollogo_com-22234983.png" width="100" />
+        </div>
+        <form class="search-form">
+          <mat-form-field class="search-full-width" appearance="outline">
+            <mat-label>Search for anything</mat-label>
+            <input matInput placeholder="Search for anything" aria-label="State" [matAutocomplete]="auto" [formControl]="stateCtrl">
+            <mat-autocomplete #auto="matAutocomplete">
+              <mat-option *ngFor="let state of filteredStates | async" [value]="state.name">
+                <img class="search-option-img" aria-hidden [src]="state.flag" height="25">
+                <span>{{state.name}}</span> |
+                <small>Population: {{state.population}}</small>
+              </mat-option>
+            </mat-autocomplete>
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>Hint</mat-hint>
+          </mat-form-field>
+
+        </form>
+      </mat-toolbar-row>
+      <mat-toolbar-row>
+        <div>
+          The solution for your problems
+        </div>
+        <div>
+          <nav mat-tab-nav-bar fxShow="false" fxShow.gt-sm>
+            <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.link" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
+              {{link.label}}
+            </a>
+          </nav>
+        </div>
+        <div>
+          <button mat-button [matMenuTriggerFor]="menu" fxHide="false" fxHide.gt-sm>
+            <mat-icon>menu</mat-icon>
+          </button>
+          <!--https://stackoverflow.com/a/41882289/4315172-->
+          <mat-menu x-position="before" #menu="matMenu">
+            <button mat-menu-item *ngFor="let link of navLinks" routerLink="{{link.link}}">{{link.label}}</button>
+          </mat-menu>
+        </div>
+      </mat-toolbar-row>
     </mat-toolbar>
   </header>
   <!-- content -->

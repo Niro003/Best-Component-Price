@@ -14,7 +14,8 @@ import {
   MatToolbarModule,
   MatListModule,
   MatCardModule,
-  MatExpansionModule
+  MatExpansionModule,
+  MatAutocompleteModule
 } from '@angular/material';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import 'hammerjs';
@@ -75,7 +76,8 @@ const appRoutes: Routes = [
     MatToolbarModule,
     MatListModule,
     MatCardModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatAutocompleteModule
   ],
   providers: [],
   bootstrap: [AppComponent]

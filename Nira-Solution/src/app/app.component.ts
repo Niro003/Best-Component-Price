@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
   navLinks = [
-      {link:'home',label:'Home'},
-      {link:'about',label:'About'},
-      {link:'clients',label:'Clients'},
-      {link:'blog',label:'Blog'},
-      {link:'contact',label:'Contact Me'},
-      {link:'site/notice',label:'Site Notice'}
+      {link: 'home', label: 'Home'},
+      {link: 'about', label: 'About'},
+      {link: 'clients', label: 'Clients'},
+      {link: 'blog', label: 'Blog'},
+      {link: 'contact', label: 'Contact Me'},
+      {link: 'site/notice', label: 'Site Notice'}
   ];
 
 }

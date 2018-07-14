@@ -1,8 +1,22 @@
 <nav fxFlex="1 6 20%"></nav>
-
 <mat-card fxFlex="3 1 30%">
   <mat-card-header>
-    <mat-card-title><h2>Angebot</h2></mat-card-title>
+    <mat-card-title><h2>Einführung</h2></mat-card-title>
+  </mat-card-header>
+  <img mat-card-image src="../assets/computer-1419134_1920.png" />
+  <mat-card-content>
+    Software zu entwickeln ist meine Leidenschaft und Tätigkeit!
+    Ich freue mich auf jede neue Anfrage für Computer-Support bzw. Projekten.
+    Bei fragen können Sie jederzeit unten auf den Button Kontakt aufnehmen klicken!
+  </mat-card-content>
+  <mat-card-actions>
+      <button mat-button>Bestellung</button>
+      <button mat-button>Kontakt aufnehmen</button>
+  </mat-card-actions>
+</mat-card>
+<mat-card fxFlex="3 1 30%">
+  <mat-card-header>
+    <mat-card-title><h2>IT-Dienstleistungen</h2></mat-card-title>
   </mat-card-header>
   <mat-card-content>
     <mat-accordion class="example-headers-align">
@@ -20,25 +34,6 @@
     </mat-accordion>
   </mat-card-content>
 </mat-card>
-<mat-card fxFlex="3 1 30%">
-    <mat-card-header>
-      <mat-card-title><h2>Angebot</h2></mat-card-title>
-    </mat-card-header>
-    <mat-card-content>
-      <mat-accordion class="example-headers-align">
-        <mat-expansion-panel *ngFor="let message of messages">
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              {{message.from}}
-            </mat-panel-title>
-            <mat-panel-description>
-              {{message.subject}}
-            </mat-panel-description>
-          </mat-expansion-panel-header>
-          <p>{{message.content}}</p>
-        </mat-expansion-panel>
-      </mat-accordion>
-    </mat-card-content>
-  </mat-card>
-<img src="../assets/computer-1419134_1920.png" width="100" />
+
+
 <aside fxFlex="1 6 20%"></aside>
