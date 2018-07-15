@@ -7,7 +7,7 @@
           <img src="../assets/coollogo_com-22234983.png" width="100" />
         </div>
         <form class="search-form">
-          <mat-form-field class="search-full-width" appearance="outline">
+          <mat-form-field class="search-full-width" >
             <mat-label>Search for anything</mat-label>
             <input matInput placeholder="Search for anything" aria-label="State" [matAutocomplete]="auto" [formControl]="stateCtrl">
             <mat-autocomplete #auto="matAutocomplete">
@@ -17,7 +17,7 @@
                 <small>Population: {{state.population}}</small>
               </mat-option>
             </mat-autocomplete>
-            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <button mat-button><mat-icon matSuffix>search</mat-icon></button>
             <mat-hint>Hint</mat-hint>
           </mat-form-field>
 
@@ -25,7 +25,7 @@
       </mat-toolbar-row>
       <mat-toolbar-row>
         <div>
-          The solution for your problems
+          Enlightenment in no time
         </div>
         <div>
           <nav mat-tab-nav-bar fxShow="false" fxShow.gt-sm>
