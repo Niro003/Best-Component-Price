@@ -28,6 +28,7 @@ import { HomeComponent } from './home/home.component';
 import { ClientsComponent } from './clients/clients.component';
 import { BlogComponent } from './blog/blog.component';
 import { SiteNoticeComponent } from './site-notice/site-notice.component';
+import {MatSelectModule} from '@angular/material/select';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -77,7 +78,8 @@ const appRoutes: Routes = [
     MatListModule,
     MatCardModule,
     MatExpansionModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

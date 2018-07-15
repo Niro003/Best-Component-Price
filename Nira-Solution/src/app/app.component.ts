@@ -1,5 +1,10 @@
 import { Component } from '@angular/core';
 
+export interface Language {
+  value: string;
+  viewValue: string;
+}
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -15,5 +20,11 @@ export class AppComponent {
       {link: 'contact', label: 'Contact Me'},
       {link: 'site/notice', label: 'Site Notice'}
   ];
+  selectedLanguage: string;
 
+  languages: Language[] = [
+    {value: 'german', viewValue: 'German'},
+    {value: 'english', viewValue: 'English'},
+    {value: 'italian', viewValue: 'Italian'}
+  ];
 }
