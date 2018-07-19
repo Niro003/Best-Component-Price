@@ -17,12 +17,13 @@
                 <small>Population: {{state.population}}</small>
               </mat-option>
             </mat-autocomplete>
-            <button mat-button>
-              <mat-icon matSuffix>search</mat-icon>
-            </button>
+
           </mat-form-field>
+          <button mat-button>
+            <mat-icon matSuffix>search</mat-icon>
+          </button>
           <mat-form-field>
-            <mat-select placeholder="Choose Language" [(ngModel)]="selectedLanguage" name="languages">
+            <mat-select placeholder="Selected Language" [(ngModel)]="selectedLanguage" name="languages">
               <mat-option *ngFor="let language of languages" [value]="language.value">
                 {{language.viewValue}}
               </mat-option>

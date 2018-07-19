@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 export interface Language {
   value: string;
@@ -10,7 +10,7 @@ export interface Language {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'app works!';
   navLinks = [
       {link: 'home', label: 'Home'},
@@ -21,10 +21,14 @@ export class AppComponent {
       {link: 'site/notice', label: 'Site Notice'}
   ];
   selectedLanguage: string;
-
   languages: Language[] = [
     {value: 'german', viewValue: 'German'},
     {value: 'english', viewValue: 'English'},
     {value: 'italian', viewValue: 'Italian'}
   ];
+  ngOnInit(): void {
+    this.selectedLanguage = this.languages[0].value;
+  }
+
+
 }
