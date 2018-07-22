@@ -17,6 +17,7 @@ export class HomeComponent {
   constructor(public dialog: MatDialog) {}
   openDialog(): void {
     const dialogRef = this.dialog.open(ContactMeDialog, {
+      width: '800px',
       data: {name: this.name}
     });
 
