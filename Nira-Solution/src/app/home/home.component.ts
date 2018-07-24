@@ -1,11 +1,31 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject } from '@angular/core';
+import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
+import {FormControl, Validators} from '@angular/forms';
+import { environment } from 'environments/environment';
 
+export interface DialogData {
+  name: string;
+}
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
+  name: string = "tests";
+
+  constructor(public dialog: MatDialog) {}
+  openDialog(): void {
+    const dialogRef = this.dialog.open(ContactMeDialog, {
+      width: '800px',
+      data: {name: this.name}
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+      this.name = result;
+    });
+  }
   messages: any =
     [
       {
@@ -60,9 +80,23 @@ export class HomeComponent implements OnInit {
         content: 'Es werden bei Anfrage auch andere Programmiersprachen genommen.'
       }
     ];
-  constructor() { }
 
-  ngOnInit() {
+
+}
+@Component({
+  selector: 'dialog-contact-me',
+  templateUrl: '../contact/contact.component.html',
+})
+export class ContactMeDialog {
+  emailFormControl = new FormControl('', [
+    Validators.required,
+    Validators.pattern(environment.EMAIL_REGEX)]);
+  constructor(
+    public dialogRef: MatDialogRef<ContactMeDialog>,
+    @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+
+  onNoClick(): void {
+    this.dialogRef.close();
   }
 
 }
