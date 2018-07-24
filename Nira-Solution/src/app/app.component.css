@@ -3,7 +3,7 @@
     width: 100%;
   }
 
-  .search-full-width {
+  .search-margin-top {
     margin-top: 30px;
   }
   
@@ -16,4 +16,7 @@
     /* margin-left: 10px; */
     margin-right: 10px;
     bottom: 9px;
+  }
+  .find-me-icon {
+    padding: 0 4px;
   }

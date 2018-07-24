@@ -5,6 +5,7 @@ import {map, startWith} from 'rxjs/operators';
 export interface Language {
   value: string;
   viewValue: string;
+  flag: string;
 }
 export interface State {
   flag: string;
@@ -29,9 +30,10 @@ export class AppComponent implements OnInit {
   ];
   selectedLanguage: string;
   languages: Language[] = [
-    {value: 'german', viewValue: 'German'},
-    {value: 'english', viewValue: 'English'},
-    {value: 'italian', viewValue: 'Italian'}
+    {value: 'german', viewValue: 'German', flag: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg'},
+    {value: 'english', viewValue: 'English',
+     flag: 'https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg'},
+    {value: 'italian', viewValue: 'Italian', flag: 'https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg'}
   ];
   ngOnInit(): void {
     this.selectedLanguage = this.languages[0].value;
