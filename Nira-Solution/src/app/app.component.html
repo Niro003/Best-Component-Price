@@ -25,7 +25,7 @@
           
         </form>
         <span class="fill-space"></span>
-        <mat-form-field class="search-margin-top">
+        <mat-form-field style="width: 130px;" class="search-margin-top">
           <mat-select placeholder="Selected Language" [(ngModel)]="selectedLanguage" name="languages">
             <mat-option *ngFor="let language of languages" [value]="language.value">
               <img class="search-option-img" aria-hidden [src]="language.flag" height="25"> {{language.viewValue}}
@@ -48,8 +48,9 @@
           </a>
       </mat-toolbar-row>
       <mat-toolbar-row >
+        <div style="width: 150px;" fxShow.gt-sm></div>
         <div>
-          <nav mat-tab-nav-bar fxShow="false" fxShow.gt-sm>
+          <nav mat-tab-nav-bar fxShow.gt-sm>
             <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.link" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
               {{link.label}}
             </a>
