@@ -1,11 +1,9 @@
 .search-form {
-    min-width: 150px;
-    max-width: 1500px;
+
     width: 100%;
   }
 
   .search-full-width {
-    width: 50%;
     margin-top: 30px;
   }
   

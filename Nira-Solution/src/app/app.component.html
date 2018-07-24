@@ -1,8 +1,8 @@
 <article fxLayout="column">
   <!-- header -->
   <header fxLayout.gt-sm="row" fxLayoutAlign.gt-sm="center center">
-    <mat-toolbar color="primary">
-      <mat-toolbar-row>
+    <mat-toolbar color="primary" >
+      <mat-toolbar-row fxLayout.gt-sm="row" fxLayoutAlign.gt-sm="center center">
         <div>
           <img src="../assets/nira-logo.png" width="150" style="margin-top:60px;"/>
         </div>
@@ -34,8 +34,7 @@
         </form>
 
       </mat-toolbar-row>
-      <mat-toolbar-row>
-        <div style="width: 150px;"></div>
+      <mat-toolbar-row >
         <div>
           <nav mat-tab-nav-bar fxShow="false" fxShow.gt-sm>
             <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.link" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
