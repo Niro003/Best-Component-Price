@@ -68,7 +68,12 @@ export class AppComponent implements OnInit {
       flag: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Texas.svg'
     }
   ];
-
+  links = {
+    about: [{href:'bla',name: 'Site notice'}], 
+    earnMoney: [{href: 'lel', name: 'Sell'}],
+    paymentOption: [{href: 'lel', name: 'Bank Account'}],
+    help : [{href:'bla',name: 'Refund and Return'}]    
+  }
   constructor() {
     this.filteredStates = this.stateCtrl.valueChanges
       .pipe(

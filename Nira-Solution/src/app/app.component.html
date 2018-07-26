@@ -72,9 +72,29 @@
 
   <!-- footer -->
   <footer fxLayout="row" fxLayoutAlign="space-around stretch">
-    <h4>About Nira</h4>
-    <h4>Nira Payment Options</h4>
-    <h4>Earn money with Nira</h4>
-    <h4>Help</h4>
+    <div>
+      <h4>About Nira</h4>
+      <mat-nav-list>
+        <a mat-list-item href="{{link.href}}" *ngFor="let link of links.about"> {{ link.name }} </a>
+      </mat-nav-list>
+    </div>
+    <div>
+      <h4>Nira Payment Options</h4>
+      <mat-nav-list>
+        <a mat-list-item href="link.href" *ngFor="let link of links.paymentOption"> {{ link.name }} </a>
+      </mat-nav-list>
+    </div>
+    <div>
+      <h4>Earn money with Nira</h4>
+      <mat-nav-list>
+        <a mat-list-item href="link.href" *ngFor="let link of links.earnMoney"> {{ link.name }} </a>
+      </mat-nav-list>
+    </div>
+    <div>
+      <h4>Help</h4>
+      <mat-nav-list>
+        <a mat-list-item href="link.href" *ngFor="let link of links.help"> {{ link.name }} </a>
+      </mat-nav-list>
+    </div>
   </footer>
 </article>
