@@ -1,6 +1,6 @@
 <article fxLayout="column">
   <!-- header -->
-  <header>
+  <header fxLayout.gt-sm="row">
     <mat-toolbar color="primary" >
       <mat-toolbar-row >
         <div>
@@ -74,5 +74,13 @@
   </main>
 
   <!-- footer -->
-  <footer fxLayout="row" style="background:black; height: 200px;"></footer>
+  <footer fxLayout="row">
+    <div fxLayout="row" fxLayoutAlign="space-around stretch" >
+      <div style="width: 50px;height: 75px;">1. One</div> 
+      <div>2. Two</div> 
+      <div>3. Three</div>
+       <div>4. Four</div>
+    </div>
+    
+  </footer>
 </article>

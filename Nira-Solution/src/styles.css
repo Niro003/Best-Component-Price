@@ -22,6 +22,10 @@ main {
 header, main, footer {
   flex-shrink: 0;
 }
+footer {
+  background: #3f51b5;
+  color: #fff;
+}
 .example-headers-align .mat-expansion-panel-header-title, 
 .example-headers-align .mat-expansion-panel-header-description {
   flex-basis: 0;
