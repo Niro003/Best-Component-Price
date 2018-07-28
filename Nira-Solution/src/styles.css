@@ -42,7 +42,9 @@ footer {
 .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
   background-color: white;
 }
-
+.mat-nav-list .mat-list-item .mat-list-item-content {
+  padding: 0px !important;
+}
 .fill-space {
   flex: 1 1 auto;
 }
