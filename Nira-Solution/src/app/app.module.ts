@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
@@ -18,7 +19,9 @@ import {
   MatCardModule,
   MatExpansionModule,
   MatAutocompleteModule,
-  MatDialogModule
+  MatDialogModule,
+  MatDialogRef,
+  MAT_DIALOG_DATA
 } from '@angular/material';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import 'hammerjs';
@@ -27,7 +30,7 @@ import {Routes, RouterModule} from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ContactComponent } from './contact/contact.component';
-import { HomeComponent, ContactMeDialog } from './home/home.component';
+import { HomeComponent } from './home/home.component';
 import { ClientsComponent } from './clients/clients.component';
 import { BlogComponent } from './blog/blog.component';
 import { SiteNoticeComponent } from './site-notice/site-notice.component';
@@ -60,8 +63,7 @@ const appRoutes: Routes = [
     HomeComponent,
     ClientsComponent,
     BlogComponent,
-    SiteNoticeComponent,
-    ContactMeDialog
+    SiteNoticeComponent
   ],
   imports: [
     BrowserModule,
@@ -69,6 +71,7 @@ const appRoutes: Routes = [
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     MatInputModule,
     MatGridListModule,
@@ -86,8 +89,11 @@ const appRoutes: Routes = [
     MatSelectModule,
     MatDialogModule
   ],
-  providers: [],
-  entryComponents: [ContactMeDialog],
+  providers: [
+    { provide: MatDialogRef, useValue: {} },
+    { provide: MAT_DIALOG_DATA, useValue: [] },
+  ],
+  entryComponents: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
