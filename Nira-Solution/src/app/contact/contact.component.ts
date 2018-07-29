@@ -23,8 +23,8 @@ export class ContactComponent implements OnInit {
       Validators.required]),
   });
   constructor(private sendMailService: SendMailService,
-       public dialogRef: MatDialogRef<ContactComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+    public dialogRef: MatDialogRef<ContactComponent>,
+    @Inject(MAT_DIALOG_DATA) public data: DialogData) { }
 
   onNoClick(): void {
     this.dialogRef.close();
@@ -34,9 +34,13 @@ export class ContactComponent implements OnInit {
   }
 
   sendMail(forename, surname, message, email) {
-    if (this.contactForm.valid) {
-      this.sendMailService.sendMail(forename, surname, message, email);
-    }
+    this.sendMailService.sendMail(forename, surname, message, email).subscribe(
+      data => {
+        console.log(data);
+      },
+      error => {
+        console.log(error);
+      });
   }
 
 }
