@@ -90,7 +90,7 @@ const appRoutes: Routes = [
     MatSelectModule,
     MatDialogModule,
     ToastrModule.forRoot({
-      positionClass: 'toast-top-center',
+      positionClass: 'toast-bottom-left',
       progressBar: true,
       progressAnimation: 'increasing',
       easeTime: 500
