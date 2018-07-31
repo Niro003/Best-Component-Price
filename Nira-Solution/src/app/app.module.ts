@@ -35,6 +35,7 @@ import { ClientsComponent } from './clients/clients.component';
 import { BlogComponent } from './blog/blog.component';
 import { SiteNoticeComponent } from './site-notice/site-notice.component';
 import {MatSelectModule} from '@angular/material/select';
+import { ToastrModule } from 'ngx-toastr';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -87,7 +88,13 @@ const appRoutes: Routes = [
     MatExpansionModule,
     MatAutocompleteModule,
     MatSelectModule,
-    MatDialogModule
+    MatDialogModule,
+    ToastrModule.forRoot({
+      positionClass: 'toast-top-center',
+      progressBar: true,
+      progressAnimation: 'increasing',
+      easeTime: 500
+    })
   ],
   providers: [
     { provide: MatDialogRef, useValue: {} },

@@ -4,13 +4,14 @@ import { environment } from 'environments/environment';
 import { SendMailService } from './send-mail.service';
 import { MatDialogRef, MAT_DIALOG_DATA } from '../../../node_modules/@angular/material';
 import { DialogData } from '../home/home.component';
+import { ToastrService } from '../../../node_modules/ngx-toastr';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
-export class ContactComponent implements OnInit {
+export class ContactComponent {
   contactForm = new FormGroup({
     emailFormControl: new FormControl('', [
       Validators.required,
@@ -24,21 +25,23 @@ export class ContactComponent implements OnInit {
   });
   constructor(private sendMailService: SendMailService,
     public dialogRef: MatDialogRef<ContactComponent>,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData) { }
+    @Inject(MAT_DIALOG_DATA) public data: DialogData,
+    private toastr: ToastrService) { }
 
   onNoClick(): void {
     this.dialogRef.close();
   }
 
-  ngOnInit() {
-  }
 
   sendMail(forename, surname, message, email) {
     this.sendMailService.sendMail(forename, surname, message, email).subscribe(
       data => {
+        this.toastr.success( 'Message has been sent!', 'Great!');
+        this.onNoClick();
         console.log(data);
       },
       error => {
+        this.toastr.error( 'Something went wrong!', 'Ups!');
         console.log(error);
       });
   }

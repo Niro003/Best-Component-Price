@@ -9,7 +9,7 @@ export class SendMailService {
   constructor(private httpClient: HttpClient) { }
 
   sendMail(forename: string, surname: string, message: string, email: string) {
-    return this.httpClient.post('/contact/sendMail', {
+    return this.httpClient.post('/api/contact/sendMail', {
       forename: forename,
       surname: surname,
       message: message,
