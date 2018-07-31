@@ -1,5 +1,5 @@
 <div fxLayout="row">
-  <form fxFlexOffset.gt-sm="20" (ngSubmit)="sendMail(forename, surname, message, email)" [formGroup]="contactForm">
+  <form fxFlexOffset.gt-sm="20" (ngSubmit)="sendMail(forename.value, surname.value, message.value, email.value)" [formGroup]="contactForm">
     <h1>Contact Me</h1>
     <table>
       <tr>

@@ -6,17 +6,17 @@ router.post('/sendMail', function (req, res, next) {
     
     var server = email.server.connect({
         user: "mangochndr",
-        password: "pinkolo909",
+        password: "testimonio333",
         host: "smtp.gmail.com",
         ssl: true
     });
-    console.log(req.body.message);
+
     var message = {
-        text: "i hope this works",
-        from: "you <${req.body.email}>",
-        to: "someone <niko.grill@gmail.com>, another <another@your-email.com>",
-        cc: "else <else@your-email.com>",
-        subject: "testing emailjs"
+        text: req.body.message,
+        from: req.body.forename + ' ' + req.body.surname + ' ' + req.body.email + '<' + req.body.email + '>',
+        to: "Nicholas Grill <niko.grill@gmail.com>",
+  //      cc: "else <mangochndr@gmail.com>",
+        subject: "New Contact"
         // attachment:
         //     [
         //         { data: "<html>i <i>hope</i> this works! here is an image: <img src='cid:my-image' width='100' height ='50'> </html>" },
