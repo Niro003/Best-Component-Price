@@ -11,8 +11,8 @@ export class AboutComponent implements OnInit {
     {
       from: 'Nira-Solution IT-Dienstleistungen',
       subject: 'Philosophie',
-      content: 'Für die Nira-Solution ist die Kundenzufriedenheit ein absoluter muss. ' +
-      'Wir bemühen uns eine möglichst rasche, effiziente und' +
+      content: 'Für die Nira-Solution ist die Kundenzufriedenheit ein absoluter muss.<br> ' +
+      'Wir bemühen uns eine möglichst rasche, effiziente und<br>' +
       'sinnvolle Lösung für das Problem zu finden. Wir bieten auch für das Ausland It-Lösungen an.'
     },
     {
@@ -23,15 +23,15 @@ export class AboutComponent implements OnInit {
     {
       from: 'Suche',
       subject: 'Preisvergleich',
-      content: `In unserer Suche bieten wir eine Firmen übergreifende
-      Suche an. Das heißt wenn sie bei uns nach einen Artikel suchen, werden gleichzeitig mehrere Shops ausgewählt und dort
+      content: `In unserer Suche bieten wir eine Firmen übergreifende<br>
+      Suche an. Das heißt wenn sie bei uns nach einen Artikel suchen, werden gleichzeitig mehrere Shops ausgewählt und<br> dort
       wo das gesuchte Produkt am billigsten ist, wird es in der Liste auf die höchste Reihe geschoben.`
     },
     {
       from: 'Suche Position beziehungsweise Optionen',
       subject: 'Kategorisieren und Sortieren',
       content: `Auf der Toolbar ganz
-      oben sehen Sie die Suchleiste, wo sie das gewünschte Produkt suchen können. Je nach wunsch können Sie natürlich kategorisieren
+      oben sehen Sie die Suchleiste, wo sie das gewünschte Produkt suchen können.<br> Je nach wunsch können Sie natürlich kategorisieren
       beziehungsweise die Produkte Sortieren.`
     }
   ];

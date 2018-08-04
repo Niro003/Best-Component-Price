@@ -1,5 +1,5 @@
-<nav fxFlex="1 6 10%"></nav>
-<mat-card fxFlex="3 1 40%">
+<nav fxFlex="2 1 10%"></nav>
+<mat-card fxFlex="1 1 40%" style="max-width: 500px;">
   <mat-card-header>
     <div fxFlex="41%" fxFlexAlign="center">
       <mat-card-title>About Nira Solution</mat-card-title>
@@ -22,14 +22,14 @@
         <mat-icon mat-list-icon>lens</mat-icon>
         <h5 mat-line> {{message.from}} </h5>
         <p mat-line>
-          <span> {{message.subject}} </span>
-          <span class="demo-2"> -- {{message.content}} </span>
+          <span> {{message.subject}} -- </span>
+          <span class="demo-2" [innerHTML]="message.content"> </span>
         </p>
       </mat-list-item>
     </mat-list>
   </mat-card-content>
 </mat-card>
-<mat-card fxFlex="3 1 40%">
+<mat-card fxFlex="1 1 40%">
   <mat-card-header>
     <div fxFlex="41%" fxFlexAlign="center">
       <mat-card-title>Lebenslauf</mat-card-title>
@@ -77,4 +77,4 @@
     </mat-list>
   </mat-card-content>
 </mat-card>
-<aside fxFlex="1 6 10%"></aside>
+<aside fxFlex="1 1 10%"></aside>
