@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
   navLinks = [
       {link: 'home', label: 'Home'},
       {link: 'about', label: 'About'},
-      {link: 'clients', label: 'Clients'},
+      {link: 'it-services', label: 'It-Services'},
       {link: 'blog', label: 'Blog'},
       {link: 'contact', label: 'Contact Me'},
       {link: 'site/notice', label: 'Site Notice'}

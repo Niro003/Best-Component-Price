@@ -31,7 +31,7 @@ import { AboutComponent } from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
-import { ClientsComponent } from './clients/clients.component';
+import { ItServicesComponent } from './it-services/it-services.component';
 import { BlogComponent } from './blog/blog.component';
 import { SiteNoticeComponent } from './site-notice/site-notice.component';
 import {MatSelectModule} from '@angular/material/select';
@@ -40,7 +40,7 @@ import { ToastrModule } from 'ngx-toastr';
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'clients', component: ClientsComponent },
+  { path: 'it-services', component: ItServicesComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'site/notice', component: SiteNoticeComponent },
   {
@@ -62,7 +62,7 @@ const appRoutes: Routes = [
     PageNotFoundComponent,
     ContactComponent,
     HomeComponent,
-    ClientsComponent,
+    ItServicesComponent,
     BlogComponent,
     SiteNoticeComponent
   ],
