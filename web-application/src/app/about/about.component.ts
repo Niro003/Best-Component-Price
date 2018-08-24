@@ -9,9 +9,9 @@ export class AboutComponent implements OnInit {
   messagesAboutCompany: any =
   [
     {
-      from: 'Nira-Solution IT-Dienstleistungen',
+      from: 'Worry-Free-Price IT-Dienstleistungen',
       subject: 'Philosophie',
-      content: 'Für die Nira-Solution ist die Kundenzufriedenheit ein absoluter muss.<br> ' +
+      content: 'Für die Worry-Free-Price GmbH ist die Kundenzufriedenheit ein absoluter muss.<br> ' +
       'Wir bemühen uns eine möglichst rasche, effiziente und<br>' +
       'sinnvolle Lösung für das Problem zu finden. Wir bieten auch für das Ausland It-Lösungen an.'
     },
@@ -74,7 +74,7 @@ export class AboutComponent implements OnInit {
         content: 'Verwaltung der authorisierungen (Zahlungen), die an Terminals durchgeführt wurden'
       },
       {
-        from: 'Nira-Solution',
+        from: 'Worry-Free-Price',
         subject: 'Angular',
         content: 'Eigene Homepage'
       },
