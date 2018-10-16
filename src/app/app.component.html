@@ -1,0 +1,100 @@
+<article fxLayout="column">
+  <!-- header -->
+  <header fxLayout.gt-sm="row">
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <div>
+          <img src="../assets/worryfreeprice_logo.png" width="150" style="margin-top:60px;" />
+        </div>
+        <form class="search-form">
+          <mat-form-field style="min-width: 600px;" class="search-margin-top">
+            <mat-label>Search for the product and get the best price</mat-label>
+            <input matInput aria-label="State" [matAutocomplete]="auto" [formControl]="stateCtrl" #searchterm name="searchterm">
+            <mat-autocomplete #auto="matAutocomplete">
+              <mat-option *ngFor="let state of filteredStates | async" [value]="state.name">
+                <img class="search-option-img" aria-hidden [src]="state.flag" height="25">
+                <span>{{state.name}}</span> |
+                <small>Population: {{state.population}}</small>
+              </mat-option>
+            </mat-autocomplete>
+
+          </mat-form-field>
+          <button mat-stroked-button class="search-button" (click)="getSearchResult(searchterm)">
+            <mat-icon matSuffix>search</mat-icon>
+          </button>
+
+        </form>
+        <span class="fill-space"></span>
+        <mat-form-field style="width: 130px;" class="search-margin-top">
+          <mat-select placeholder="Selected Language" [(ngModel)]="selectedLanguage" name="languages">
+            <mat-option *ngFor="let language of languages" [value]="language.value">
+              <img class="search-option-img" aria-hidden [src]="language.flag" height="25"> {{language.viewValue}}
+            </mat-option>
+          </mat-select>
+
+        </mat-form-field>
+
+        <a class="find-me-icon" href="https://www.facebook.com/nico.grill.7?ref=bookmarks">
+          <img style="height: 40px;width: auto" src="../assets/if_social_facebook_button_blue_60825.png" />
+        </a>
+        <a class="find-me-icon" href="https://twitter.com/Nirojan_">
+          <img style="height: 40px;width: auto" src="../assets/if_social_twitter_box_white_60858.png" />
+        </a>
+        <a class="find-me-icon" href="https://plus.google.com/u/0/104641832894762857402">
+          <img style="height: 40px;width: auto" src="../assets/if_social_google_box_white_60829.png" />
+        </a>
+      </mat-toolbar-row>
+      <mat-toolbar-row>
+        <div style="width: 150px;" fxShow.gt-sm></div>
+        <div>
+          <nav mat-tab-nav-bar fxShow.gt-sm>
+            <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.link" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
+              {{link.label}}
+            </a>
+          </nav>
+        </div>
+        <div>
+          <button mat-button [matMenuTriggerFor]="menu" fxHide="false" fxHide.gt-sm>
+            <mat-icon>menu</mat-icon>
+          </button>
+          <!--https://stackoverflow.com/a/41882289/4315172-->
+          <mat-menu x-position="before" #menu="matMenu">
+            <button mat-menu-item *ngFor="let link of navLinks" routerLink="{{link.link}}">{{link.label}}</button>
+          </mat-menu>
+        </div>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </header>
+  <!-- content -->
+  <main fxLayout.gt-sm="row" fxLayoutAlign.gt-sm="center center">
+    <router-outlet></router-outlet>
+  </main>
+
+  <!-- footer -->
+  <footer fxLayout="row" fxLayoutAlign="space-around stretch">
+    <div>
+      <h4>About us</h4>
+      <mat-nav-list>
+        <a style="padding:0px;" mat-list-item href="{{link.href}}" *ngFor="let link of links.about"> {{ link.name }} </a>
+      </mat-nav-list>
+    </div>
+    <div>
+      <h4>Payment Options</h4>
+      <mat-nav-list>
+        <a mat-list-item href="link.href" *ngFor="let link of links.paymentOption"> {{ link.name }} </a>
+      </mat-nav-list>
+    </div>
+    <div>
+      <h4>Earn money</h4>
+      <mat-nav-list>
+        <a mat-list-item href="link.href" *ngFor="let link of links.earnMoney"> {{ link.name }} </a>
+      </mat-nav-list>
+    </div>
+    <div>
+      <h4>Help</h4>
+      <mat-nav-list>
+        <a mat-list-item href="link.href" *ngFor="let link of links.help"> {{ link.name }} </a>
+      </mat-nav-list>
+    </div>
+  </footer>
+</article>

@@ -1,0 +1,62 @@
+<div fxLayout="row">
+  <form fxFlexOffset.gt-sm="20" (ngSubmit)="sendMail(forename.value, surname.value, message.value, email.value)" [formGroup]="contactForm">
+    <h1>Contact Me</h1>
+    <table>
+      <tr>
+        <td>
+          <mat-form-field>
+            <input matInput placeholder="Forename" name="forename"  formControlName="forenameFormControl" #forename>
+            <mat-error *ngIf="contactForm.controls['forenameFormControl'].errors?.required">
+              Firstname is
+              <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+        </td>
+        <td>
+          <mat-form-field>
+            <input matInput placeholder="Surname" name="surname" #surname formControlName="surnameFormControl">
+            <mat-error *ngIf="contactForm.controls['surnameFormControl'].errors?.required">
+              Surname is
+              <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <mat-form-field style="width: 100%">
+            <input matInput placeholder="Email" name="email" formControlName="emailFormControl" #email>
+            <mat-error *ngIf="contactForm.controls['emailFormControl'].errors?.pattern">
+              Please enter a valid email address
+            </mat-error>
+            <mat-error *ngIf="contactForm.controls['emailFormControl'].errors?.required">
+              Email is
+              <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+
+        </td>
+      </tr>
+    </table>
+    <mat-form-field style="width : 100%;">
+      <textarea matInput #message maxlength="500" placeholder="Message" name="message" formControlName="messageFormControl"></textarea>
+      <mat-hint align="start">
+        <strong>Don't disclose personal info</strong>
+      </mat-hint>
+      <mat-hint align="end">{{message.value.length}} / 500</mat-hint>
+      <mat-error *ngIf="contactForm.controls['messageFormControl'].errors?.required">
+        Message is
+        <strong>required</strong>
+      </mat-error>
+    </mat-form-field>
+    <div fxLayout="row" fxLayoutAlign="end end" style="margin-top: 5px;">
+      <button type="submit" mat-stroked-button [disabled]="!contactForm.valid">
+        <mat-icon>send</mat-icon>
+      </button>
+    </div>
+  </form>
+</div>
