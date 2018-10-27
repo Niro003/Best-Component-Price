@@ -1,0 +1,96 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+
+$my-primary-color: (
+  // Non-accent Backgrounds
+  // General
+  50: #ede7f6,   // Most far away
+  100: #d1c4e9,  // Far far away
+  200: #b39ddb,  // Far away
+  300: #9575cd,  // Middle far
+  400: #7e57c2,  // Middle
+  500: #673ab7,  // Middle close
+  600: #5e35b1,  // Close
+  700: #512da8,  // Very close
+  800: #4527a0,  // Very very Close
+  900: #311b92,  // Closest
+  // Accent Background (calling for user action, notice, feedback/response)
+  // Texts, fields, cursors, selections, progress, buttons
+  A100: #b388ff,  // Most far
+  A200: #7c4dff,  // Middle
+  A400: #651fff,  // Close
+  A700: #FBC02D,  // Closest
+  // Non-accent Texts - it's a contrast array opposite to the background for
+  // text coloring.
+  // General
+  contrast: (
+    50: $dark-primary-text,   // Most far away
+    100: $dark-primary-text,  // Far far away
+    200: $dark-primary-text,  // Far away
+    300: $light-primary-text, // Middle far
+    400: $light-primary-text, // Middle
+    500: $light-primary-text, // Middle close
+    600: $light-primary-text, // Close
+    700: $light-primary-text, // Very close
+    800: $light-primary-text, // Very very Close
+    900: $light-primary-text, // Closest
+    // Accent Texts (calling for user action, notice, feedback/response)
+    // Texts, fields, cursors, selections, progress, buttons
+    A100: $dark-primary-text,   // Most far
+    A200: $light-primary-text,  // Middle
+    A400: $light-primary-text,  // Close
+    A700: $light-primary-text,  // Closest
+  )
+);
+
+
+$my-accent-color: (
+  // Non-accent Backgrounds
+  // General
+  50: #e8f5e9,    // Most far away
+  100: #c8e6c9,   // Far far away
+  200: #a5d6a7,   // Far away
+  300: #81c784,   // Middle far
+  400: #66bb6a,   // Middle
+  500: #4caf50,   // Middle close
+  600: #43a047,   // Close
+  700: #388e3c,   // Very close
+  800: #2e7d32,   // Very very Close
+  900: #1b5e20,   // Closest
+  // Accent Background (calling for user action, notice, feedback/response)
+  // Texts, fields, cursors, selections, progress, buttons
+  A100: #b9f6ca,  // Most far
+  A200: #69f0ae,  // Middle
+  A400: #00e676,  // Close
+  A700: #00c853,  // Closest
+  // Non-accent Texts - it's a contrast array opposite to the background for
+  // text coloring.
+  // General
+  contrast: (
+    50: $dark-primary-text,   // Most far away
+    100: $dark-primary-text,  // Far far away
+    200: $dark-primary-text,  // Far away
+    300: $dark-primary-text,  // Middle far
+    400: $dark-primary-text,  // Middle
+    500: $dark-primary-text,  // Middle close
+    600: $light-primary-text, // Close
+    700: $light-primary-text, // Very close
+    800: $light-primary-text, // Very very Close
+    900: $light-primary-text, // Closest
+    // Accent Texts (calling for user action, notice, feedback/response)
+    // Texts, fields, cursors, selections, progress, buttons
+    A100: $dark-primary-text, // Most far
+    A200: $dark-primary-text, // Middle
+    A400: $dark-primary-text, // Close
+    A700: $dark-primary-text, // Closest
+  )
+);
+
+$my-primary: mat-palette($my-primary-color, A700);
+$my-accent:  mat-palette($my-accent-color, A200, A100, A400);
+$my-warn:    mat-palette($mat-red);
+
+$my-theme: mat-light-theme($my-primary, $my-accent, $my-warn);
+
+@include angular-material-theme($my-theme);

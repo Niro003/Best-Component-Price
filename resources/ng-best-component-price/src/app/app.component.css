@@ -20,11 +20,9 @@
   .find-me-icon {
     padding: 0 4px;
   }
-  .mat-nav-list a {
-    text-decoration: underline;
-    color: inherit;
-    font-size: 12px;
-}
+  .mat-tab-label, .mat-tab-link {
+    color: white;
+  }
 h4 {
   margin-bottom: 10px;
 }

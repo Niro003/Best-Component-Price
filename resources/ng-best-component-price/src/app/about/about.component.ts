@@ -9,23 +9,17 @@ export class AboutComponent implements OnInit {
   messagesAboutCompany: any =
   [
     {
-      from: 'Worry-Free-Price IT-Dienstleistungen',
-      subject: 'Philosophie',
-      content: 'Für die Worry-Free-Price GmbH ist die Kundenzufriedenheit ein absoluter muss.<br> ' +
-      'Wir bemühen uns eine möglichst rasche, effiziente und<br>' +
-      'sinnvolle Lösung für das Problem zu finden. Wir bieten auch für das Ausland It-Lösungen an.'
+      from: 'Best-Component-Price',
+      subject: 'Philosophy',
+      content: 'To find the best building component price can be difficult<br> ' +
+      'We try to solve that problem by<br>' +
+      'offering a service where you get as fast as possible the cheapest component bundles.'
     },
     {
       from: 'Online-Shop',
-      subject: 'Angebot',
-      content: 'Außer Dienstleistungen und Software Lösungen bieten wir außerdem einen Online-Shop an.'
-    },
-    {
-      from: 'Suche',
-      subject: 'Preisvergleich',
-      content: `In unserer Suche bieten wir eine Firmen übergreifende<br>
-      Suche an. Das heißt wenn sie bei uns nach einen Artikel suchen, werden gleichzeitig mehrere Shops ausgewählt und<br> dort
-      wo das gesuchte Produkt am billigsten ist, wird es in der Liste auf die höchste Reihe geschoben.`
+      subject: 'Offers',
+      content: 'We offer from a variety of online shops component bundles.' +
+       +'Compare their prices and be excited to get in a very easy way the cheapest price.'
     },
     {
       from: 'Suche Position beziehungsweise Optionen',
