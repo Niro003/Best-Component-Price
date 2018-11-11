@@ -1,4 +1,26 @@
 @import '~@angular/material/theming';
+.mat-form-field-flex {
+  align-items: flex-end !important;
+}
+header {
+  background-color: #FBC02D;
+}
+.mat-tab-link {
+  opacity: 1 !important;
+}
+.mat-tab-links {
+  display: inline-flex !important;
+}
+.mat-toolbar {
+  overflow: hidden;
+}
+.mat-list-avatar {
+  height: 100px !important;
+  width: 100px !important;
+}
+.mat-list-item {
+  height: 100px !important;
+}
 @include mat-core();
 
 

@@ -1,22 +1,13 @@
-.search-form {
 
-    width: 100%;
-  }
 
-  .search-margin-top {
-    margin-top: 30px;
+
+  .search-button {
+    height: 50px;
   }
-  
   .search-option-img {
     vertical-align: middle;
   }
 
-  .search-button {
-    height: 51.99074px;
-    /* margin-left: 10px; */
-    margin-right: 10px;
-    bottom: 9px;
-  }
   .find-me-icon {
     padding: 0 4px;
   }
@@ -25,4 +16,10 @@
   }
 h4 {
   margin-bottom: 10px;
+}
+.footer-seperator {
+  padding-bottom: 9px;
+}
+mat-toolbar-row > form {
+  padding-top: 30px;
 }

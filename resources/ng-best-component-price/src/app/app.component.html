@@ -1,61 +1,48 @@
 <article fxLayout="column">
   <!-- header -->
-  <header fxLayout.gt-sm="row">
+  <header fxLayout="row">
+    <div fxFlex="1 1 calc(130px)">
+      <img src="../assets/bcp-logo.png" width="130" />
+    </div>
     <mat-toolbar color="primary">
       <mat-toolbar-row>
-        <div>
-          <img src="../assets/bcp-logo.png" width="150" style="margin-top:60px;" />
-        </div>
-        <form class="search-form">
-          <mat-form-field style="min-width: 600px;" class="search-margin-top">
-            <mat-label>Search for the product and get the best price</mat-label>
-            <input matInput aria-label="State" [matAutocomplete]="auto" [formControl]="stateCtrl" #searchterm name="searchterm">
-            <mat-autocomplete #auto="matAutocomplete">
-              <mat-option *ngFor="let state of filteredStates | async" [value]="state.name">
-                <img class="search-option-img" aria-hidden [src]="state.flag" height="25">
-                <span>{{state.name}}</span> |
-                <small>Population: {{state.population}}</small>
-              </mat-option>
+        <form fxFlex="1 1 auto" [formGroup]='componentsForm'>
+          <mat-form-field fxFlex="1 1 auto">
+            <mat-label>Search for the component and get the best price</mat-label>
+            <input matInput aria-label="component" [matAutocomplete]="auto" formControlName="componentInput">
+            <div matSuffix fxLayout="row" fxLayoutAlign="end stretch">
+              <mat-spinner *ngIf="isLoading" diameter=50 color="warn"></mat-spinner>
+              <button mat-stroked-button class="search-button" (click)="getSearchResult(searchterm)">
+                <mat-icon>search</mat-icon>
+              </button>
+
+            </div>
+            <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+              <ng-container *ngIf="!isLoading">
+                <mat-option *ngFor="let component of filteredComponents" [value]="component">
+                  <button (click)="chosenComponent(component)">
+                    <img class="search-option-img" aria-hidden [src]="'https://www.hornbach.at/'+component.image"
+                      height="25">
+                    <small>{{component["article-title"]}}</small>
+                    <small> - </small>
+                    <small>{{component.price}}</small>
+                  </button>
+                  <a [routerLink]="['/component/list',component.category]">{{component.category}}</a>
+                </mat-option>
+              </ng-container>
             </mat-autocomplete>
-
           </mat-form-field>
-          <button mat-stroked-button class="search-button" (click)="getSearchResult(searchterm)">
-            <mat-icon matSuffix>search</mat-icon>
-          </button>
-
         </form>
-        <span class="fill-space"></span>
-        <mat-form-field style="width: 130px;" class="search-margin-top">
-          <mat-select placeholder="Selected Language" [(ngModel)]="selectedLanguage" name="languages">
-            <mat-option *ngFor="let language of languages" [value]="language.value">
-              <img class="search-option-img" aria-hidden [src]="language.flag" height="25"> {{language.viewValue}}
-            </mat-option>
-          </mat-select>
-
-        </mat-form-field>
-
-        <a class="find-me-icon" href="https://www.facebook.com/nico.grill.7?ref=bookmarks">
-          <img style="height: 40px;width: auto" src="../assets/if_social_facebook_button_blue_60825.png" />
-        </a>
-        <a class="find-me-icon" href="https://twitter.com/Nirojan_">
-          <img style="height: 40px;width: auto" src="../assets/if_social_twitter_box_white_60858.png" />
-        </a>
-        <a class="find-me-icon" href="https://plus.google.com/u/0/104641832894762857402">
-          <img style="height: 40px;width: auto" src="../assets/if_social_google_box_white_60829.png" />
-        </a>
       </mat-toolbar-row>
-      <mat-toolbar-row>
-        <div style="width: 150px;" fxShow.gt-sm></div>
-        <div>
-          <nav mat-tab-nav-bar color="warn" fxShow.gt-sm>
-            <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.link" routerLinkActive #rla="routerLinkActive"
-              [active]="rla.isActive">
-              {{link.label}}
-            </a>
-          </nav>
-        </div>
-        <div>
-          <button mat-button [matMenuTriggerFor]="menu" fxHide="false" fxHide.gt-sm>
+      <mat-toolbar-row fxLayout="row">
+        <nav fxFlex mat-tab-nav-bar color="warn">
+          <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.link" routerLinkActive #rla="routerLinkActive"
+            [active]="rla.isActive">
+            {{link.label}}
+          </a>
+        </nav>
+        <div fxFlex="100px">
+          <button mat-button [matMenuTriggerFor]="menu" fxHide="false" fxHide.gt-lg>
             <mat-icon>menu</mat-icon>
           </button>
           <!--https://stackoverflow.com/a/41882289/4315172-->
@@ -67,25 +54,41 @@
     </mat-toolbar>
   </header>
   <!-- content -->
-  <content fxLayout.gt-sm="row" fxLayoutAlign.gt-sm="center center">
+  <content>
     <router-outlet></router-outlet>
   </content>
 
   <!-- footer -->
   <footer>
     <mat-toolbar fxLayout="column" color="primary">
-        <mat-toolbar-row fxLayout="row" fxLayoutAlign="space-around stretch">
-            <h4>About us</h4>
-            <h4>Payment Options</h4>
-            <h4>Earn money</h4>
-            <h4>Help</h4>
-        </mat-toolbar-row>
-        <mat-toolbar-row fxLayout="row" fxLayoutAlign="space-around stretch">
-            <a>Refund and Return</a>
-            <a>Bank Account</a>
-            <a>Sell</a>
-            <a>Site notice</a>
-        </mat-toolbar-row>
+      <mat-toolbar-row fxLayout="row" fxLayoutAlign="space-between end">
+        <div>
+          <a routerLink="developedBy/NicholasGrill" mat-flat-button color="primary">Developed by Nicholas Grill</a>
+          <a class="find-me-icon" href="https://www.facebook.com/nico.grill.7?ref=bookmarks">
+            <img style="height: 15px;width: auto" src="../assets/if_social_facebook_button_blue_60825.png" />
+          </a>
+          <a class="find-me-icon" href="https://twitter.com/Nirojan_">
+            <img style="height: 15px;width: auto" src="../assets/if_social_twitter_box_white_60858.png" />
+          </a>
+          <a class="find-me-icon" href="https://plus.google.com/u/0/104641832894762857402">
+            <img style="height: 15px;width: auto" src="../assets/if_social_google_box_white_60829.png" />
+          </a>
+        </div>
+        <div fxLayout="row">
+          <a mat-flat-button color="primary" routerLink="site/notice">Legal Notice</a>
+          <span class="footer-seperator">|</span>
+          <a mat-flat-button color="primary">Privacy Policy</a>
+          <span class="footer-seperator">|</span>
+          <a mat-flat-button color="primary">Terms of Use</a>
+          <!--         <mat-form-field>
+            <mat-select placeholder="Selected Language" [(ngModel)]="selectedLanguage" name="languages">
+              <mat-option *ngFor="let language of languages" [value]="language.value">
+                <img class="search-option-img" aria-hidden [src]="language.flag" height="25"> {{language.viewValue}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field> -->
+        </div>
+      </mat-toolbar-row>
     </mat-toolbar>
   </footer>
 </article>

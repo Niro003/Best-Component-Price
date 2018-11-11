@@ -1,0 +1,48 @@
+<div fxLayout="column" fxLayoutAlign="start center">
+  <mat-card>
+    <mat-card-header>
+      <div fxFlex="41%" fxFlexAlign="center">
+        <mat-card-title>Best-Component-Price</mat-card-title>
+      </div>
+      <div fxFlex="49%" fxFlexAlign="center">
+        <mat-card-title>About us</mat-card-title>
+      </div>
+      <div fxFlex="10%" fxFlexAlign="start">
+        <mat-card-title mat-card-avatar class="nira-header-image"></mat-card-title>
+      </div>
+    </mat-card-header>
+    <mat-divider></mat-divider>
+    <div fxLayout="row" fxLayoutAlign="center end">
+      <img mat-card-image src="../../assets/PIXNIO-224981-4864x3283.jpg">
+    </div>
+    <mat-card-content>
+      <mat-list>
+        <mat-list-item *ngFor="let message of messagesAboutCompany">
+          <mat-icon mat-list-icon>lens</mat-icon>
+          <h5 mat-line style="font-weight:bold;"> {{message.from}} </h5>
+          <p mat-line>
+            <span> {{message.subject}} -- </span>
+            <span class="mat-typography" [innerHTML]="message.content"> </span>
+          </p>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+  <mat-card fxFlex="3 1 60%">
+    <mat-card-header>
+      <mat-card-title>
+        <h2>Indroduction</h2>
+      </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image style="width: 350px;" src="../assets/price-tag-374404_1920.jpg" />
+    <mat-card-content>
+      <p>
+        Had you often worries about if you got the best price for the product you are trying to aquire? Here you are
+        exactly right!
+        You just have to put the product's name into the searchbar and we will check all our available sellers who have
+        this
+        product and look for you for the cheapest and best price. Perfect! No worries if you wasted your money.
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>

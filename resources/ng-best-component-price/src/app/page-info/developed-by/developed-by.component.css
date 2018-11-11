@@ -1,0 +1,8 @@
+.niko-header-image {
+    background-image: url('/assets/niko.jpg');
+    background-size: cover;
+  }
+  .nira-header-image {
+    background-image: url('/assets/Earth_Western_Hemisphere.jpg');
+    background-size: cover;
+  }

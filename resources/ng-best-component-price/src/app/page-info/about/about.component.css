@@ -1,0 +1,24 @@
+.mat-list-icon {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.mat-list .mat-list-item .mat-list-icon {
+  font-size: 14px;
+}
+
+.mat-list .mat-list-item {
+  font-size: 14px;
+}
+
+.mat-card-image {
+  width: calc(50% + 48px);
+  margin:0px;
+}
+
+.mat-card-image:first-child {
+   margin-top: 0px; 
+   padding-top: 10px;
+   padding-bottom: 10px; 
+}
+
+
