@@ -21,13 +21,15 @@
               <ng-container *ngIf="!isLoading">
                 <mat-option *ngFor="let component of filteredComponents" [value]="component">
                   <button (click)="chosenComponent(component)">
-                    <img class="search-option-img" aria-hidden [src]="'https://www.hornbach.at/'+component.image"
+                    <img class="search-option-img" aria-hidden [src]="component.image"
                       height="25">
                     <small>{{component["article-title"]}}</small>
                     <small> - </small>
                     <small>{{component.price}}</small>
                   </button>
                   <a [routerLink]="['/component/list',component.category]">{{component.category}}</a>
+                  <img class="search-option-img" aria-hidden [src]="component.company"
+                  height="25">
                 </mat-option>
               </ng-container>
             </mat-autocomplete>
@@ -63,7 +65,7 @@
     <mat-toolbar fxLayout="column" color="primary">
       <mat-toolbar-row fxLayout="row" fxLayoutAlign="space-between end">
         <div>
-          <a routerLink="developedBy/NicholasGrill" mat-flat-button color="primary">Developed by Nicholas Grill</a>
+          <a routerLink="developedBy/NicholasGrill" mat-flat-button color="primary">Developed: NG | Idea: TG</a>
           <a class="find-me-icon" href="https://www.facebook.com/nico.grill.7?ref=bookmarks">
             <img style="height: 15px;width: auto" src="../assets/if_social_facebook_button_blue_60825.png" />
           </a>
@@ -73,6 +75,9 @@
           <a class="find-me-icon" href="https://plus.google.com/u/0/104641832894762857402">
             <img style="height: 15px;width: auto" src="../assets/if_social_google_box_white_60829.png" />
           </a>
+        </div>
+        <div>
+          <button (click)="showYourBundle()" class="align-button-footer" mat-raised-button color="warn">Show Components of your Bundle</button>
         </div>
         <div fxLayout="row">
           <a mat-flat-button color="primary" routerLink="site/notice">Legal Notice</a>

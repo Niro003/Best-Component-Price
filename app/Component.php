@@ -8,7 +8,7 @@ class Component extends Eloquent
 {
     protected $connection = 'mongodb';
 
-    protected $collection = 'hornbach_components';
+    protected $collection = 'components';
 
 
     /**

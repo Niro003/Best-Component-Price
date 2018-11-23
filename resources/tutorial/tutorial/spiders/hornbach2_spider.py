@@ -1,7 +1,7 @@
 import scrapy
 from scrapy_splash import SplashRequest
 from pprint import pprint
-
+from scrapy.shell import inspect_response
 class HornbachSpider(scrapy.Spider):
     name = "hornbach2"
     child = 2;
@@ -51,13 +51,15 @@ class HornbachSpider(scrapy.Spider):
 
 
     def parse(self, response):
+      #  inspect_response(response, self);  
+        newCat = response.url.split('/')[4];
         for hornbach in response.css('#article-list > div.article'):
             yield {
                 'article-title': hornbach.css('span.title::text').extract_first().strip(),
                 'price': hornbach.css('span.price > span:nth-child(3)::text').extract_first().strip(),
-                'image': hornbach.css('img.article-image::attr(src)').extract()[0].strip(),
+                'image': hornbach.css('img.article-image::attr(image-lazy-src)').extract()[0].strip(),
+                'category': newCat
             }
-        newCat = response.url.split('/')[4];
         print newCat    
         if (self.currentCat != newCat):
             self.child = self.child + 1;
@@ -67,4 +69,4 @@ class HornbachSpider(scrapy.Spider):
         yield SplashRequest(url=response.url, callback=self.parse, endpoint="execute", args={'lua_source': self.script,'child':self.child})       
 
             #docker run -p 8050:8050 scrapinghub/splash
-            #mongoimport --db bcp_local --collection hornbach_components --file hornbach3.json --jsonArray
+            #mongoimport --db bcp_local --collection hornbach_components --file hornbach.json --jsonArray

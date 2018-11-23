@@ -1,6 +1,8 @@
 
 
-
+.align-button-footer {
+  margin-bottom: 12px; 
+}
   .search-button {
     height: 50px;
   }
@@ -12,8 +14,9 @@
     padding: 0 4px;
   }
   .mat-tab-label, .mat-tab-link {
-    color: white;
+    color: #ffffff;
   }
+  #ffffff
 h4 {
   margin-bottom: 10px;
 }

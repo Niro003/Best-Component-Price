@@ -15,10 +15,10 @@ import {
   MatTabsModule,
   MatIconModule,
   MatToolbarModule,
-
+  MatListModule,
   MatAutocompleteModule,
-  MatDialogModule,
-  MatDialogRef
+  MatDialogRef,
+  MatBottomSheetModule
 } from '@angular/material';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import 'hammerjs';
@@ -31,12 +31,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { PageInfoModule } from './page-info/page-info.module';
 import { SearchComponentModule } from './search-component/search-component.module';
 import { ComponentOverviewModule } from './component-overview/component-overview.module';
+import { InfoToast } from './shared/info.toast';
+import { ShowYourCurrentBundleComponent } from './show-your-current-bundle/show-your-current-bundle.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PageNotFoundComponent,
+    InfoToast,
+    ShowYourCurrentBundleComponent
   ],
   imports: [
     BrowserModule,
@@ -56,23 +60,22 @@ import { ComponentOverviewModule } from './component-overview/component-overview
     MatToolbarModule,
     MatAutocompleteModule,
     MatSelectModule,
-    MatDialogModule,
     MatProgressSpinnerModule,
     ToastrModule.forRoot({
-      positionClass: 'toast-bottom-left',
-      progressBar: true,
-      progressAnimation: 'increasing',
-      easeTime: 500
+      toastComponent: InfoToast
     }),
     MatIconModule,
     MatInputModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatListModule,
+    MatBottomSheetModule
   ],
   providers: [
+    { provide: MatDialogRef, useValue: {} },
     { provide: HTTP_INTERCEPTORS, useClass: APIInterceptor, multi: true }
   ],
-  entryComponents: [],
+  entryComponents: [InfoToast, ShowYourCurrentBundleComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

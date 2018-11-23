@@ -1,3 +1,7 @@
+<img [src]="component.company" />
 <h3>{{component['article-title']}}</h3>
-<img [src]="'https://hornbach.at'+component.image" />
+<img [src]="component.image" />
 <p>Preis: {{ component['price'] }}</p>
+<button (click)="initiateBundle()" mat-raised-button color="warn">Initiate Bundle</button>
+<button (click)="addToBundle()" mat-raised-button color="warn">Add To Bundle</button>
+<button (click)="createBundle()" mat-raised-button color="warn">Create Bundle</button>

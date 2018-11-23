@@ -17,7 +17,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('search/components/{title}', "ComponentsController@searchComponents");
+Route::get('search/components/{title}', "ComponentsController@searchComponentsByTitle");
 Route::get('search/{category}/components', "ComponentsController@searchComponentsByCategory");
 
 

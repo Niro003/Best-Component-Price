@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormBuilder, FormGroup } from '@angular/forms';
-import { Observable } from 'rxjs';
+import {MatBottomSheet, MatBottomSheetRef} from '@angular/material';
 import { map, startWith, debounceTime, switchMap, tap, finalize } from 'rxjs/operators';
-import { IComponent, BuildingComponent } from "./shared/component.class";
+import {  BuildingComponent } from "./shared/component.class";
 import { Router } from '@angular/router';
 import { SearchItemService } from './shared/search-item.service';
+import { ShowYourCurrentBundleComponent } from './show-your-current-bundle/show-your-current-bundle.component';
 export interface Language {
   value: string;
   viewValue: string;
@@ -19,10 +20,10 @@ export interface Language {
 export class AppComponent implements OnInit {
 
   navLinks = [
-    { link: 'home', label: 'Component Overview' },
-    { link: 'cart', label: 'Your Shopping Cart' },
-    { link: 'recent', label: 'Recently Looked for Components' },
-    { link: 'components', label: 'Where to buy?(Calculation)' },
+    { link: 'home', label: 'Overview' },
+    { link: 'bundle', label: 'Your Bundles' },
+    { link: 'recent', label: 'Recently Looked for' },
+    { link: 'components', label: 'Location to buy Bundle' },
     { link: 'blog', label: 'Blog' },
     { link: 'about', label: 'About' }
   ];
@@ -59,7 +60,10 @@ export class AppComponent implements OnInit {
         console.log(components);
       }, error => []);
   }
-  constructor(private fb: FormBuilder, private searchItemService: SearchItemService, private router: Router) { }
+  constructor(private fb: FormBuilder,
+     private searchItemService: SearchItemService, 
+     private router: Router,
+     private openCurrentBundle: MatBottomSheet) { }
   public getSearchResult(searchTerm) {
     this.searchItemService.getSearchResult(searchTerm).subscribe(
       data => {
@@ -70,7 +74,7 @@ export class AppComponent implements OnInit {
       }
     );
   }
-  displayFn(component: IComponent) {
+  displayFn(component: Component) {
     if (component) { return component["article-title"]; }
   }
 
@@ -78,6 +82,10 @@ export class AppComponent implements OnInit {
     console.log(component);
     localStorage.setItem('component',JSON.stringify(component));
     this.router.navigate(['/component/details']);
+  }
+
+  showYourBundle() {
+    this.openCurrentBundle.open(ShowYourCurrentBundleComponent);
   }
 
 }

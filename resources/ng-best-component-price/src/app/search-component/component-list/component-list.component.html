@@ -3,7 +3,7 @@
   *ngFor="let component of components | 
   slice:pageEvent.pageIndex*pageEvent.pageSize:pageEvent.pageSize*(pageEvent.pageIndex+1);"
    role="listitem">
-      <img matListAvatar [src]="'https://www.hornbach.at'+component.image" alt="...">
+      <img matListAvatar [src]="component.image" alt="...">
       <h3 matLine> {{component['category']}} </h3>
       <p matLine>
         <span> {{component['article-title']}} </span>

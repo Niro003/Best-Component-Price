@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { catchError, tap } from 'rxjs/operators';
-import { IComponent, BuildingComponent } from './component.class';
+import {  BuildingComponent } from './component.class';
 import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'

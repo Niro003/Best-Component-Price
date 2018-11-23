@@ -1,0 +1,19 @@
+<div fxLayout="column">
+  <mat-nav-list>
+    <a *ngFor="let component of bundle; let i = index" href="{{component.href}}" mat-list-item (click)="openLink($event)">
+      <span mat-line>
+        <div fxLayout="row" fxLayoutAlign="space-between center">
+          <img class="article-img" [src]="component.image" />
+          <div fxLayout="column">
+            <div fxLayout="row">
+              <h3>Component {{i+1}} from</h3>
+              <img fxFlex="300px" class="company" [src]="component.company" />
+            </div>
+            <p>{{component['article-title']}}</p>
+          </div>
+        </div>
+      </span>
+    </a>
+  </mat-nav-list>
+  <button (click)="createBundle()" mat-raised-button color="warn">Create Bundle</button>
+</div>

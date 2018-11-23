@@ -1,4 +1,4 @@
-export interface IComponent {
+export interface Component {
     image: string;
     articleTitle: string;
     price: string;
