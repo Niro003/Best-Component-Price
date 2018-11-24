@@ -6,6 +6,7 @@ import {  BuildingComponent } from "./shared/component.class";
 import { Router } from '@angular/router';
 import { SearchItemService } from './shared/search-item.service';
 import { ShowYourCurrentBundleComponent } from './show-your-current-bundle/show-your-current-bundle.component';
+import { HelperService } from './shared/helper.service';
 export interface Language {
   value: string;
   viewValue: string;
@@ -62,7 +63,7 @@ export class AppComponent implements OnInit {
   }
   constructor(private fb: FormBuilder,
      private searchItemService: SearchItemService, 
-     private router: Router,
+     private helper: HelperService,
      private openCurrentBundle: MatBottomSheet) { }
   public getSearchResult(searchTerm) {
     this.searchItemService.getSearchResult(searchTerm).subscribe(
@@ -74,14 +75,12 @@ export class AppComponent implements OnInit {
       }
     );
   }
-  displayFn(component: Component) {
+  displayFn(component: BuildingComponent) {
     if (component) { return component["article-title"]; }
   }
 
-  chosenComponent(component: Component) {
-    console.log(component);
-    localStorage.setItem('component',JSON.stringify(component));
-    this.router.navigate(['/component/details']);
+  chosenComponent(component: BuildingComponent) {
+    this.helper.navigateToComponent(component);
   }
 
   showYourBundle() {

@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { BundleManagementService } from './bundle-management.service';
+import { BundleService } from './bundle.service';
 
 describe('BundleManagementService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: BundleManagementService = TestBed.get(BundleManagementService);
+    const service: BundleService = TestBed.get(BundleService);
     expect(service).toBeTruthy();
   });
 });

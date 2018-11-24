@@ -2,6 +2,6 @@
 <h3>{{component['article-title']}}</h3>
 <img [src]="component.image" />
 <p>Preis: {{ component['price'] }}</p>
-<button (click)="initiateBundle()" mat-raised-button color="warn">Initiate Bundle</button>
+<button *ngIf="!initiated" (click)="initiateBundle()" mat-raised-button color="warn">Initiate Bundle</button>
 <button (click)="addToBundle()" mat-raised-button color="warn">Add To Bundle</button>
-<button (click)="createBundle()" mat-raised-button color="warn">Create Bundle</button>
+<button *ngIf="isCreateable" (click)="createBundle()" mat-raised-button color="warn">Create Bundle</button>

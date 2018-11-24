@@ -1,6 +1,6 @@
 <div fxLayout="column">
   <mat-nav-list>
-    <a *ngFor="let component of bundle; let i = index" href="{{component.href}}" mat-list-item (click)="openLink($event)">
+    <a *ngFor="let component of bundle; let i = index"  mat-list-item (click)="chosenComponent(component)">
       <span mat-line>
         <div fxLayout="row" fxLayoutAlign="space-between center">
           <img class="article-img" [src]="component.image" />

@@ -33,6 +33,7 @@ import { SearchComponentModule } from './search-component/search-component.modul
 import { ComponentOverviewModule } from './component-overview/component-overview.module';
 import { InfoToast } from './shared/info.toast';
 import { ShowYourCurrentBundleComponent } from './show-your-current-bundle/show-your-current-bundle.component';
+import { BundleCreationComponent } from './bundle-creation/bundle-creation.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { ShowYourCurrentBundleComponent } from './show-your-current-bundle/show-
     AppComponent,
     PageNotFoundComponent,
     InfoToast,
-    ShowYourCurrentBundleComponent
+    ShowYourCurrentBundleComponent,
+    BundleCreationComponent
   ],
   imports: [
     BrowserModule,
