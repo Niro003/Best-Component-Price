@@ -56,6 +56,7 @@ class HornbachSpider(scrapy.Spider):
         for hornbach in response.css('#article-list > div.article'):
             yield {
                 'article-title': hornbach.css('span.title::text').extract_first().strip(),
+                'article-link': hornbach.css('a.image-container::attr(href)').extract_first().strip(),
                 'price': hornbach.css('span.price > span:nth-child(3)::text').extract_first().strip(),
                 'image': hornbach.css('img.article-image::attr(image-lazy-src)').extract()[0].strip(),
                 'category': newCat
