@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
 import { SearchItemService } from './shared/search-item.service';
 import { ShowYourCurrentBundleComponent } from './show-your-current-bundle/show-your-current-bundle.component';
 import { HelperService } from './shared/helper.service';
+import { Subscription } from 'rxjs';
 export interface Language {
   value: string;
   viewValue: string;
@@ -40,6 +41,8 @@ export class AppComponent implements OnInit {
 
   componentsForm: FormGroup;
   filteredComponents: BuildingComponent[];
+  subscription:Subscription;
+  showBundleButton: boolean;
   isLoading = false;
   ngOnInit(): void {
     this.selectedLanguage = this.languages[0].value;
@@ -60,6 +63,9 @@ export class AppComponent implements OnInit {
         this.filteredComponents = components;
         console.log(components);
       }, error => []);
+
+      this.subscription = this.helper._bundleButtonFooter$
+       .subscribe(item => this.showBundleButton = item)
   }
   constructor(private fb: FormBuilder,
      private searchItemService: SearchItemService, 

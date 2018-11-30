@@ -16,7 +16,7 @@ export class SearchItemService {
       const simpleObservable = new Observable<BuildingComponent[]>((observer) => {
 
         // observable execution
-        observer.next([new BuildingComponent("","","")])
+        observer.next([new BuildingComponent("","","","")])
         observer.complete()
       });
       return simpleObservable;
@@ -25,7 +25,7 @@ export class SearchItemService {
       .pipe(
         tap((response: BuildingComponent[]) => {
           return response.map(component =>
-            new BuildingComponent(component['article-title'], component.price, component.image))
+            new BuildingComponent(component['article-title'], component.price, component.image,component.company))
         })
       );;
   }

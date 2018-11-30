@@ -29,8 +29,8 @@ class ComponentsController extends Controller
         return array_merge($obi_components,$hornbach_components);
     }
     private function addAdditionalColumnCompany(&$hornbach_components, &$obi_components){
-        $this->addColumn($hornbach_components, 'company', '../assets/800px-Hornbach_Logo_black.svg.png');
-        $this->addColumn($obi_components, 'company', '../assets/obi-print.jpg');
+        $this->addColumn($hornbach_components, 'company', '/assets/800px-Hornbach_Logo_black.svg.png');
+        $this->addColumn($obi_components, 'company', '/assets/obi-print.jpg');
     }
     private function addColumn(&$array,$column,$val) {
         foreach ($array as &$component) {

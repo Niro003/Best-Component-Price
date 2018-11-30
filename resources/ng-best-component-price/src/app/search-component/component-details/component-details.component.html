@@ -1,7 +1,25 @@
-<img [src]="component.company" />
-<h3>{{component['article-title']}}</h3>
-<img [src]="component.image" />
-<p>Preis: {{ component['price'] }}</p>
-<button *ngIf="!initiated" (click)="initiateBundle()" mat-raised-button color="warn">Initiate Bundle</button>
-<button (click)="addToBundle()" mat-raised-button color="warn">Add To Bundle</button>
-<button *ngIf="isCreateable" (click)="createBundle()" mat-raised-button color="warn">Create Bundle</button>
+<mat-card class="example-card">
+  <mat-card-header>
+
+    <mat-card-title>{{component['article-title']}}</mat-card-title>
+    <mat-card-subtitle>
+      <img class="imgMaxWidth" [src]="component.company" /><br>
+      <a mat-stroked-button color="primary" href="{{component['article-link']}}">
+        Click here to go to component detail page
+      </a>
+    </mat-card-subtitle>
+  </mat-card-header>
+  <img class="imgMaxWidth" [src]="component.image" alt="component image">
+  <mat-card-content>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+      Sapiente eum mollitia doloremque vero earu
+    </p>
+    <p>Preis: {{ component['price'] }}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button *ngIf="!initiated" (click)="initiateBundle()" mat-raised-button color="warn">Initiate Bundle</button>
+    <button (click)="addToBundle()" mat-raised-button color="warn">Add To Bundle</button>
+    <button *ngIf="isCreateable" (click)="createBundle()" mat-raised-button color="warn">Create Bundle</button>
+  </mat-card-actions>
+</mat-card>

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { BundleService } from 'app/shared/bundle.service';
 import { ToastrService } from 'ngx-toastr';
+import { BuildingComponent } from '../shared/component.class'
+import { HelperService } from 'app/shared/helper.service';
 
 @Component({
   selector: 'app-bundle-creation',
@@ -9,26 +11,42 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class BundleCreationComponent implements OnInit {
 
-  constructor(private toastr: ToastrService,private bundleService: BundleService) { }
-  bundle: any
+  constructor(
+    private toastr: ToastrService,
+    private bundleService: BundleService,
+    private helperService: HelperService) { }
+  bundle: BuildingComponent[];
+  price: number;
+  distinctCompanies = [];
   ngOnInit() {
     this.createBundle();
   }
 
-  createBundle(){
+  createBundle() {
     this.bundle = JSON.parse(localStorage.getItem('bundle'));
     console.log(this.bundle);
-/*    this.bundleService.createBundle()
+    this.price = this.bundle.reduce(add, 0);
+
+    function add(a, b) {
+      console.log(b);
+      var number2 = Number(b.price.replace(/[^0-9.,]+/g, "").replace(/,/g, '.'));
+      console.log(number2);
+      return a + number2;
+    }
+    this.distinctCompanies = [...new Set(this.bundle.map(item => item.company))];
+    this.helperService.showBundleButtonAppearance(false);
+    console.log(this.distinctCompanies);
+    this.bundleService.createBundle()
       .subscribe(
         res => {
-          if (res == 'ok'){
-          this.toastr.success('Successfull Bundle Creation', 'Bundle was added to library')
-          }else {
+          if (res == 'ok') {
+            this.toastr.success('Successfull Bundle Creation', 'Bundle was added to library')
+          } else {
             this.toastr.error('Error Bundle Creation', 'Bundle was not added to library');
           }
         },
-        error => this.toastr.error('Error Bundle Creation', 'The server served a http error')); */
-    
+        error => this.toastr.error('Error Bundle Creation', 'The server served a http error'));
+
   }
 
 }

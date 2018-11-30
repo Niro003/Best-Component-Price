@@ -21,4 +21,6 @@ export class BundleService {
     console.log(this.bundle);
     return this.httpClient.post('api/bundle/store', this.bundle, { responseType: 'text' });
   }
+
+
 }

@@ -7,10 +7,10 @@ import { ContactComponent } from './contact/contact.component';
 import { BlogComponent } from './blog/blog.component';
 import { SiteNoticeComponent } from './site-notice/site-notice.component';
 import { DevelopedByComponent } from './developed-by/developed-by.component';
-import { MatCardModule, MatExpansionModule, MatListModule, MatIconModule, MatInputModule, MatButtonModule, MatDialogRef } from '@angular/material';
+import { MatCardModule, MatExpansionModule, MatListModule, MatIconModule, MatInputModule, MatButtonModule, MatDialogRef, MatDialog } from '@angular/material';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import {MatDialogModule} from '@angular/material/dialog';
 @NgModule({
   declarations: [
     AboutComponent,
@@ -21,6 +21,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   ],
   imports: [
     CommonModule,
+    MatDialogModule,
     MatCardModule,
     MatListModule,
     MatExpansionModule,
@@ -30,7 +31,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     FormsModule,
     ReactiveFormsModule,
     FlexLayoutModule,
-    MatButtonModule
+    MatButtonModule,
   ],
   providers: [
     { provide: MatDialogRef, useValue: {} },

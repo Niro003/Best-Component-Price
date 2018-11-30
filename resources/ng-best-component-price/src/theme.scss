@@ -21,6 +21,9 @@ header {
 .mat-list-item {
   height: 100px !important;
 }
+.mat-card-header-text {
+  margin: 0px !important;
+}
 @include mat-core();
 
 

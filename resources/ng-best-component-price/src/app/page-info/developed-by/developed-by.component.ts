@@ -123,7 +123,7 @@ messagesProjects: any =
       content: 'Schaue dir Statistiken von deinen Gitlab-Projekten -und User an'
     }
   ];
-  constructor(public dialog: MatDialog) { }
+  constructor(private dialog: MatDialog) { }
 
   ngOnInit() {
   }

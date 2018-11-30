@@ -6,7 +6,7 @@ import { ComponentListComponent } from './component-list/component-list.componen
 import { ComponentDetailsComponent } from './component-details/component-details.component';
 import { MatListModule, MatPaginatorModule, MatButtonModule } from '@angular/material';
 import { ToastrModule } from 'ngx-toastr';
-
+import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     ComponentListComponent,
@@ -18,7 +18,8 @@ import { ToastrModule } from 'ngx-toastr';
     MatListModule,
     MatPaginatorModule,
     MatButtonModule,
-    ToastrModule
+    ToastrModule,
+    MatCardModule
   ]
 })
 export class SearchComponentModule { }

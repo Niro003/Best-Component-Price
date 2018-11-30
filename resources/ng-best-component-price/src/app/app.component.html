@@ -76,7 +76,7 @@
             <img style="height: 15px;width: auto" src="../assets/if_social_google_box_white_60829.png" />
           </a>
         </div>
-        <div>
+        <div *ngIf="showBundleButton">
           <button (click)="showYourBundle()" class="align-button-footer" mat-raised-button color="warn">Show Components of your Bundle</button>
         </div>
         <div fxLayout="row">
