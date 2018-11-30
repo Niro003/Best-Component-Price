@@ -3,6 +3,7 @@ import { BundleService } from 'app/shared/bundle.service';
 import { ToastrService } from 'ngx-toastr';
 import { BuildingComponent } from '../shared/component.class'
 import { HelperService } from 'app/shared/helper.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-bundle-creation',
@@ -17,9 +18,13 @@ export class BundleCreationComponent implements OnInit {
     private helperService: HelperService) { }
   bundle: BuildingComponent[];
   price: number;
+  subscription:Subscription;
   distinctCompanies = [];
   ngOnInit() {
     this.createBundle();
+
+    this.subscription = this.helperService._changedComponentDetailsFooter$
+       .subscribe( => this.showBundleButton = item)
   }
 
   createBundle() {
