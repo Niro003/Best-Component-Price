@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatBottomSheetRef } from '@angular/material';
 import { Router } from '@angular/router';
 import { HelperService } from 'app/shared/helper.service';
-import {BuildingComponent} from '../shared/component.class';
+import {BuildingComponent} from '../../shared/component.class';
 
 @Component({
   selector: 'app-show-your-current-bundle',

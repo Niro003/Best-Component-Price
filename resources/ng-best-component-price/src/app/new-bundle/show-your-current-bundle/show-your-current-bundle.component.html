@@ -1,13 +1,13 @@
 <div fxLayout="column">
   <mat-nav-list>
     <a *ngFor="let component of bundle; let i = index"  mat-list-item (click)="chosenComponent(component)">
-      <span mat-line>
+      <span>
         <div fxLayout="row" fxLayoutAlign="space-between center">
-          <img class="article-img" [src]="component.image" />
+          <img fxFlex="100px" class="article-img" [src]="component.image" />
           <div fxLayout="column">
-            <div fxLayout="row">
+            <div fxLayout="row" fxLayoutAlign="start center">
               <h3>Component {{i+1}} from</h3>
-              <img fxFlex="300px" class="company" [src]="component.company" />
+              <img fxFlex="200px" class="company" [src]="component.company" />
             </div>
             <p>{{component['article-title']}}</p>
           </div>

@@ -19,6 +19,11 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('search/components/{title}', "ComponentsController@searchComponentsByTitle");
 Route::get('search/{category}/components', "ComponentsController@searchComponentsByCategory");
+Route::post('component/store', "ComponentsController@store");
+Route::get('suggestions/components/{id}', "BundleController@getSuggestedComponents");
+Route::get('component/statistics', "ComponentsController@getComponentStatistics");
+
+
 Route::post('bundle/store', "BundleController@store");
 
 

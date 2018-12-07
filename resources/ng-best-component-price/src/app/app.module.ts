@@ -32,28 +32,24 @@ import { PageInfoModule } from './page-info/page-info.module';
 import { SearchComponentModule } from './search-component/search-component.module';
 import { ComponentOverviewModule } from './component-overview/component-overview.module';
 import { InfoToast } from './shared/info.toast';
-import { ShowYourCurrentBundleComponent } from './show-your-current-bundle/show-your-current-bundle.component';
-import { BundleCreationComponent } from './bundle-creation/bundle-creation.component';
-
+import { NewBundleModule } from './new-bundle/new-bundle.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageNotFoundComponent,
-    InfoToast,
-    ShowYourCurrentBundleComponent,
-    BundleCreationComponent
+    InfoToast
   ],
   imports: [
     BrowserModule,
     PageInfoModule,
     SearchComponentModule,
     ComponentOverviewModule,
+    NewBundleModule,
     AppRoutingModule,
     HttpModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatGridListModule,
     MatButtonModule,
     MatCheckboxModule,
     MatTabsModule,
@@ -71,13 +67,13 @@ import { BundleCreationComponent } from './bundle-creation/bundle-creation.compo
     FormsModule,
     ReactiveFormsModule,
     MatListModule,
-    MatBottomSheetModule
+    MatBottomSheetModule,
   ],
   providers: [
     { provide: MatDialogRef, useValue: {} },
     { provide: HTTP_INTERCEPTORS, useClass: APIInterceptor, multi: true }
   ],
-  entryComponents: [InfoToast, ShowYourCurrentBundleComponent],
+  entryComponents: [InfoToast],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

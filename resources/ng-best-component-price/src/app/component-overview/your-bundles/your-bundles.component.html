@@ -1,0 +1,31 @@
+<mat-paginator [length]="pageEvent.length"
+              [pageSize]="pageEvent.pageSize"
+              [pageSizeOptions]="pageSizeOptions"
+              (page)="onPageChange($event)">
+</mat-paginator>
+<div *ngFor="let bundle of bundles | 
+slice:pageEvent.pageIndex*pageEvent.pageSize:pageEvent.pageSize*(pageEvent.pageIndex+1);">
+      <small style="background-color:lightblue;">BundleNr: {{pageEvent.pageIndex+1}} </small>
+      <ng-container *ngFor="let component of bundle">
+        <mat-divider></mat-divider>
+  
+        <mat-grid-list cols="5" rowHeight="100px">
+          <mat-grid-tile [colspan]="3" [rowspan]="1" [style.background]="'lightyellow'">
+            {{component['article-title']}}
+          </mat-grid-tile>
+          <mat-grid-tile [colspan]="2" [rowspan]="2" [style.background]="'lightyellow'">
+            <img [src]="component.image" />
+          </mat-grid-tile>
+          <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="'lightyellow'">
+            {{component.price}}
+          </mat-grid-tile>
+          <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="'lightyellow'">
+            {{component.category}}
+          </mat-grid-tile>
+          <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="'lightyellow'">
+            <img width="200" [src]="component.company" />
+          </mat-grid-tile>
+        </mat-grid-list>
+        <mat-divider></mat-divider>
+      </ng-container>
+  </div>

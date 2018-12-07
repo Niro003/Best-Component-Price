@@ -1,0 +1,10 @@
+<mat-paginator [length]="pageEvent.length"
+              [pageSize]="pageEvent.pageSize"
+              [pageSizeOptions]="pageSizeOptions"
+              (page)="onPageChange($event)">
+</mat-paginator>
+<ng-container *ngFor="let component of components | 
+slice:pageEvent.pageIndex*pageEvent.pageSize:pageEvent.pageSize*(pageEvent.pageIndex+1);">
+<app-component-details [component]="component"></app-component-details>
+<mat-divider></mat-divider>
+</ng-container>

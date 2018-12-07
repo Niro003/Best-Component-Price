@@ -1,0 +1,2 @@
+[Sun Dec 02 00:35:30.141476 2018] [core:alert] [pid 17916:tid 139904046913280] [client 127.0.0.1:40802] /var/www/vhosts/bcp/public/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost:4200/home
+[Sun Dec 02 00:37:40.604382 2018] [core:alert] [pid 17916:tid 139904038520576] [client 127.0.0.1:40818] /var/www/vhosts/bcp/public/.htaccess: Invalid command 'Header', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost:4200/home

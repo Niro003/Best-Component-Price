@@ -22,5 +22,14 @@ class BundleController extends Controller
         $bundle->name = "user";
         return $bundle->save() ? "ok" : "error";
     }
+    public function getSuggestedComponents($id)
+    {
+        // Validate the request...
+        return Bundle::where(
+            'components',
+            'elemMatch',
+            [ '_id' => $id ]
+        )->get();
+    }
 
 }

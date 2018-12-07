@@ -1,0 +1,26 @@
+<mat-list role="list">
+  <h3 mat-subheader>Components</h3>
+  <mat-list-item *ngFor="let component of bundle">
+    <img matListAvatar [src]="component['image']" alt="...">
+    <h4 mat-line>{{component['article-title']}}</h4>
+    <p mat-line> {{component['article-link']}} </p>
+  </mat-list-item>
+  <mat-divider></mat-divider>
+  <h3 mat-subheader>Details of Bundle</h3>
+  <mat-list-item>
+    <h4 mat-line>Overall Price: {{price}} €</h4>
+  </mat-list-item>
+  <mat-list-item>
+    <h4 mat-line>Count of components: {{bundle.length}}</h4>
+  </mat-list-item>
+  <mat-divider></mat-divider>
+  <h4 mat-subheader>Shops Required to buy complete bundle and their respective shops in a map</h4>
+</mat-list>
+<small class="list-padding"> Click on a marker and you open a window where you can place a route</small>
+<div class="list-padding" *ngFor="let item of distinctCompanies" fxLayout="column" fxLayoutAlign="center start">
+  <img mat-line class="imgCompanyWidth" [src]="item">
+  <iframe mat-line *ngIf="item.includes('obi')" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d42574.59164658119!2d16.307970412507093!3d48.16977769937193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sobi!5e0!3m2!1sde!2sat!4v1543740795290"
+    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe *ngIf="item.includes('Hornbach')" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d85149.209784924!2d16.272950389670203!3d48.169761744192556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shornbach!5e0!3m2!1sde!2sat!4v1543741047166"
+    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>

@@ -5,7 +5,7 @@ import { map, startWith, debounceTime, switchMap, tap, finalize } from 'rxjs/ope
 import {  BuildingComponent } from "./shared/component.class";
 import { Router } from '@angular/router';
 import { SearchItemService } from './shared/search-item.service';
-import { ShowYourCurrentBundleComponent } from './show-your-current-bundle/show-your-current-bundle.component';
+import { ShowYourCurrentBundleComponent } from './new-bundle/show-your-current-bundle/show-your-current-bundle.component';
 import { HelperService } from './shared/helper.service';
 import { Subscription } from 'rxjs';
 export interface Language {
@@ -23,9 +23,9 @@ export class AppComponent implements OnInit {
 
   navLinks = [
     { link: 'home', label: 'Overview' },
-    { link: 'bundle', label: 'Your Bundles' },
-    { link: 'recent', label: 'Recently Looked for' },
-    { link: 'components', label: 'Location to buy Bundle' },
+    { link: 'your/bundles', label: 'Your Bundles' },
+    { link: 'recently/looked/components', label: 'Recently Looked Components' },
+    { link: 'location/bundle/buy', label: 'Location to buy Bundle' },
     { link: 'blog', label: 'Blog' },
     { link: 'about', label: 'About' }
   ];
@@ -87,6 +87,7 @@ export class AppComponent implements OnInit {
 
   chosenComponent(component: BuildingComponent) {
     this.helper.navigateToComponent(component);
+    this.helper.changeComponentDetails();
   }
 
   showYourBundle() {
