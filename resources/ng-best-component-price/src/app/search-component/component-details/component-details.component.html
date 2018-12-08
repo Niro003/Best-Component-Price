@@ -25,35 +25,37 @@
 </mat-card>
 <mat-divider></mat-divider>
 <h4>People who put this component into their bundle also put that into their bundle</h4>
-<div *ngFor="let bundle of suggestedBundle;let i=index">
-  <ng-container *ngIf="i<11">
-    <small style="background-color:lightblue;">BundleNr: {{i+1}} name:{{bundle.name}}</small>
-    <ng-container *ngFor="let component of bundle.components">
-      <mat-divider></mat-divider>
+<div *ngFor="let bundle of suggestedBundle | slice:pageEvent.pageIndex*pageEvent.pageSize:pageEvent.pageSize*(pageEvent.pageIndex+1);let i=index">
+  <h3>BundleNr: {{pageEvent.pageIndex+1}}</h3>
+  <ng-container *ngFor="let component of bundle.components">
+    <mat-divider></mat-divider>
 
-      <mat-grid-list cols="5" rowHeight="100px">
-        <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="'lightyellow'">
-          <button *ngIf="!initiated" (click)="initiateBundle(component)" mat-raised-button color="warn">Initiate Bundle</button>
-          <button *ngIf="initiated" (click)="addToBundle(component)" mat-raised-button color="warn">Add To Bundle</button>
-          <button *ngIf="isCreateable" (click)="createBundle(component)" mat-raised-button color="warn">Create Bundle</button>
-        </mat-grid-tile>
-        <mat-grid-tile [colspan]="2" [rowspan]="1" [style.background]="'lightyellow'">
-          {{component['article-title']}}
-        </mat-grid-tile>
-        <mat-grid-tile [colspan]="2" [rowspan]="2" [style.background]="'lightyellow'">
-          <img [src]="component.image" />
-        </mat-grid-tile>
-        <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="'lightyellow'">
-          {{component.price}}
-        </mat-grid-tile>
-        <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="'lightyellow'">
-          {{component.category}}
-        </mat-grid-tile>
-        <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="'lightyellow'">
-          <img width="200" [src]="component.company" />
-        </mat-grid-tile>
-      </mat-grid-list>
-      <mat-divider></mat-divider>
-    </ng-container>
+    <mat-grid-list cols="5" rowHeight="100px">
+      <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="'lightyellow'">
+        <button *ngIf="!initiated" (click)="initiateBundle(component)" mat-raised-button color="warn">Initiate Bundle</button>
+        <button *ngIf="initiated" (click)="addToBundle(component)" mat-raised-button color="warn">Add To Bundle</button>
+        <button *ngIf="isCreateable" (click)="createBundle(component)" mat-raised-button color="warn">Create Bundle</button>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="2" [rowspan]="1" [style.background]="'lightyellow'">
+        {{component['article-title']}}
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="2" [rowspan]="2" [style.background]="'lightyellow'">
+        <img [src]="component.image" />
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="'lightyellow'">
+        {{component.price}}
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="'lightyellow'">
+        {{component.category}}
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="1" [rowspan]="1" [style.background]="'lightyellow'">
+        <img width="200" [src]="component.company" />
+      </mat-grid-tile>
+    </mat-grid-list>
+    <mat-divider></mat-divider>
   </ng-container>
 </div>
+<mat-divider></mat-divider>
+<mat-paginator [length]="pageEvent.length" [pageSize]="pageEvent.pageSize" [pageSizeOptions]="pageSizeOptions"
+(page)="onPageChange($event)">
+</mat-paginator>

@@ -25,7 +25,6 @@ class ComponentsController extends Controller
                         'article-title' =>  ['$first' => '$article-title' ],
                         'company' =>  ['$first' => '$company' ],
                         'link' =>  ['$first' => '$link' ],
-
                         'total' => [
                             '$sum'  => '$price'
                         ],

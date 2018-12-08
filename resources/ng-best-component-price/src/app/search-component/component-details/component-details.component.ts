@@ -5,6 +5,7 @@ import { HelperService } from 'app/shared/helper.service';
 import { Subscription } from 'rxjs';
 import { ComponentSuggestionService } from './shared/component-suggestion.service';
 import { ComponentStatisticsService } from 'app/shared/component-statistics.service';
+import { PageEvent } from '@angular/material';
 
 @Component({
   selector: 'app-component-details',
@@ -24,6 +25,8 @@ export class ComponentDetailsComponent implements OnInit {
   bundle: Component[];
   initiated = false;
   isCreateable = false;
+  pageSizeOptions: number[] = [1, 3, 5, 10];
+  pageEvent: PageEvent;
   subscription: Subscription;
   tiles: any[] = [
     { text: 'One', cols: 3, rows: 1, color: 'lightblue' },
@@ -31,8 +34,12 @@ export class ComponentDetailsComponent implements OnInit {
     { text: 'Three', cols: 1, rows: 1, color: 'lightpink' },
     { text: 'Four', cols: 2, rows: 1, color: '#DDBDF1' },
   ];
-  suggestedBundle: Component[];
+  suggestedBundle = [];
+  
   ngOnInit() {
+    this.pageEvent = new PageEvent();
+    this.pageEvent.pageIndex = 0;
+    this.pageEvent.pageSize = 1;
     if (this.component == null) {
       // it's not called from recent looked components
       this.component = JSON.parse(localStorage.getItem('component'));
@@ -55,6 +62,13 @@ export class ComponentDetailsComponent implements OnInit {
       this.getComponentSuggestion();
 
   }
+  onPageChange(event){
+    this.pageEvent = event;
+    console.log(event);
+  }
+  setPageSizeOptions(setPageSizeOptionsInput: string) {
+    this.pageSizeOptions = setPageSizeOptionsInput.split(',').map(str => +str);
+  }
   setNewComponentViews(){
     this.componentStatisticsService.setNewComponentViews(this.component).subscribe(
       data => console.log(data),
@@ -65,7 +79,7 @@ export class ComponentDetailsComponent implements OnInit {
     this.componentSuggestionService.getComponentSuggestion(this.component['_id']).subscribe(
       (data:Component[]) => {
         this.suggestedBundle = data;
-        console.log(data);
+        this.pageEvent.length=this.suggestedBundle.length;
       },
       error => console.log(error)
     );

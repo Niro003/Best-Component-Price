@@ -1,15 +1,15 @@
 
 
-.align-button-footer {
-  margin-bottom: 12px; 
-}
   .search-button {
     height: 50px;
   }
   .search-option-img {
-    vertical-align: middle;
+    height: 48px;
   }
 
+  .search-option-logo {
+    height: 30px;
+  }
   .find-me-icon {
     padding: 0 4px;
   }
@@ -25,4 +25,11 @@ h4 {
 }
 mat-toolbar-row > form {
   padding-top: 30px;
+}
+.align-dropdown{
+  display: inline-block;
+} 
+.padding-button-search {
+  padding-top: 10px;
+  padding-bottom: 10px; 
 }

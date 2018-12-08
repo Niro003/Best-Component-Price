@@ -4,6 +4,8 @@ import { Router, Route, ParamMap, ActivatedRoute } from '@angular/router';
 import { Observable, Subscription } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { PageEvent } from '@angular/material';
+import { BuildingComponent } from 'app/shared/component.class';
+import { HelperService } from 'app/shared/helper.service';
 
 @Component({
   selector: 'app-component-list',
@@ -18,7 +20,7 @@ export class ComponentListComponent implements OnInit {
   pageEvent: PageEvent;
 
   constructor(private getComponentsByCategoryService: GetComponentsByCategorieService,
-    public route: ActivatedRoute) { }
+    public route: ActivatedRoute,private helper: HelperService) { }
 
   ngOnInit() {
     this.pageEvent = new PageEvent();
@@ -42,6 +44,11 @@ export class ComponentListComponent implements OnInit {
   }
   setPageSizeOptions(setPageSizeOptionsInput: string) {
     this.pageSizeOptions = setPageSizeOptionsInput.split(',').map(str => +str);
+  }
+
+  chosenComponent(component: BuildingComponent) {
+    this.helper.navigateToComponent(component);
+    this.helper.changeComponentDetails();
   }
 
 }

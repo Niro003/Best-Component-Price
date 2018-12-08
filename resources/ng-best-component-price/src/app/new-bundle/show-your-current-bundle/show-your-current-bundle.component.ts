@@ -22,6 +22,7 @@ export class ShowYourCurrentBundleComponent implements OnInit {
   }
   chosenComponent(component: BuildingComponent){
     this.helper.navigateToComponent(component);
+    this.helper.changeComponentDetails();
     this.bottomSheetRef.dismiss();
   }
   createBundle(){

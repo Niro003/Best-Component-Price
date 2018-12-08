@@ -1,8 +1,9 @@
-<mat-list role="list">
+<mat-nav-list
+  role="list">
   <mat-list-item 
   *ngFor="let component of components | 
   slice:pageEvent.pageIndex*pageEvent.pageSize:pageEvent.pageSize*(pageEvent.pageIndex+1);"
-   role="listitem">
+   role="listitem" (click)="chosenComponent(component)">
       <img matListAvatar [src]="component.image" alt="...">
       <h3 matLine> {{component['category']}} </h3>
       <p matLine>
@@ -10,7 +11,7 @@
         <span class="demo-2"> -- {{component.price}} </span>
       </p>
   </mat-list-item>
-</mat-list>
+</mat-nav-list>
 <mat-paginator [length]="pageEvent.length"
               [pageSize]="pageEvent.pageSize"
               [pageSizeOptions]="pageSizeOptions"

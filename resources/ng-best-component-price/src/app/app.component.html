@@ -8,7 +8,7 @@
       <mat-toolbar-row>
         <form fxFlex="1 1 auto" [formGroup]='componentsForm'>
           <mat-form-field fxFlex="1 1 auto">
-            <mat-label>Search for the component and get the best price</mat-label>
+            <mat-label>Search for the component you wish to add to your bundle. Click link on the right side in the dropdown to filter after category</mat-label>
             <input matInput aria-label="component" [matAutocomplete]="auto" formControlName="componentInput">
             <div matSuffix fxLayout="row" fxLayoutAlign="end stretch">
               <mat-spinner *ngIf="isLoading" diameter=50 color="warn"></mat-spinner>
@@ -17,19 +17,21 @@
               </button>
 
             </div>
-            <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+            <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn" >
               <ng-container *ngIf="!isLoading">
-                <mat-option *ngFor="let component of filteredComponents" [value]="component">
-                  <button (click)="chosenComponent(component)">
-                    <img class="search-option-img" aria-hidden [src]="component.image"
-                      height="25">
-                    <small>{{component["article-title"]}}</small>
-                    <small> - </small>
-                    <small>{{component.price}}</small>
-                  </button>
-                  <a [routerLink]="['/component/list',component.category]">{{component.category}}</a>
-                  <img class="search-option-img" aria-hidden [src]="component.company"
-                  height="25">
+                <mat-option *ngFor="let component of filteredComponents" [value]="component" style="padding:0px;">
+                  <div fxLayout="row" fxLayoutAlign="space-between center" >
+                    <div fxFlex fxLayoutAlign="space-around center" (click)="chosenComponent(component)">
+                      <img fxFlex="48px" class="search-option-img" aria-hidden [src]="component.image">
+                      <small fxFlex="400px">{{component["article-title"]}}</small>
+                      <small> - </small>
+                      <small>{{component.price}}</small>
+                      <img class="logo-float-right search-option-logo" (click)="chosenComponent(component)" aria-hidden
+                        [src]="component.company">
+                    </div>
+                    <a fxFlex="250px" mat-button class="padding-button-search"  [routerLink]="['/component/list',component.category]">Category: {{component.category}}</a>
+                  </div>
+
                 </mat-option>
               </ng-container>
             </mat-autocomplete>
@@ -63,7 +65,7 @@
   <!-- footer -->
   <footer>
     <mat-toolbar fxLayout="column" color="primary">
-      <mat-toolbar-row fxLayout="row" fxLayoutAlign="space-between end">
+      <mat-toolbar-row fxLayout="row" fxLayoutAlign="space-between center">
         <div>
           <a routerLink="developedBy/NicholasGrill" mat-flat-button color="primary">Developed: NG | Idea: TG</a>
           <a class="find-me-icon" href="https://www.facebook.com/nico.grill.7?ref=bookmarks">
@@ -77,7 +79,8 @@
           </a>
         </div>
         <div *ngIf="showBundleButton">
-          <button (click)="showYourBundle()" class="align-button-footer" mat-raised-button color="warn">Show Components of your Bundle</button>
+          <button (click)="showYourBundle()" class="align-button-footer" mat-raised-button color="warn">Show Components
+            of your Bundle</button>
         </div>
         <div fxLayout="row">
           <a mat-flat-button color="primary" routerLink="site/notice">Legal Notice</a>

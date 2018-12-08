@@ -1,2 +1,6 @@
-<p>Most Popular Components</p>
-        <app-component-details *ngFor="let component of components" [component]="component"></app-component-details>
+<h3 class="head">Most Popular Components</h3>
+<mat-tab-group mat-align-tabs="center">
+    <mat-tab label="Nr: {{i+1}} Component" *ngFor="let component of components; let i = index">
+        <app-component-details  [component]="component"></app-component-details>
+    </mat-tab>
+</mat-tab-group>
