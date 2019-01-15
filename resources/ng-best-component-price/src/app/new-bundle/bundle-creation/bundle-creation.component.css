@@ -9,3 +9,7 @@ agm-map {
 .list-padding {
     padding-left: 16px;
 }
+h4.mat-line:nth-child(n+1) {
+    font-size: 16px !important;
+    padding: 5px;
+}

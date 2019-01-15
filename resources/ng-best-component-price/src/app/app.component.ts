@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormBuilder, FormGroup } from '@angular/forms';
-import {MatBottomSheet, MatBottomSheetRef} from '@angular/material';
+import { MatBottomSheet, MatBottomSheetRef } from '@angular/material';
 import { map, startWith, debounceTime, switchMap, tap, finalize } from 'rxjs/operators';
-import {  BuildingComponent } from "./shared/component.class";
+import { BuildingComponent } from "./shared/component.class";
 import { Router } from '@angular/router';
 import { SearchItemService } from './shared/search-item.service';
 import { ShowYourCurrentBundleComponent } from './new-bundle/show-your-current-bundle/show-your-current-bundle.component';
@@ -41,7 +41,7 @@ export class AppComponent implements OnInit {
 
   componentsForm: FormGroup;
   filteredComponents: BuildingComponent[];
-  subscription:Subscription;
+  subscription: Subscription;
   showBundleButton: boolean;
   isLoading = false;
   ngOnInit(): void {
@@ -60,17 +60,18 @@ export class AppComponent implements OnInit {
             finalize(() => this.isLoading = false),
           ))
       ).subscribe(components => {
+        this.getMatchedItems(components).forEach(data => components.unshift(data));
         this.filteredComponents = components;
         console.log(components);
       }, error => []);
 
-      this.subscription = this.helper._bundleButtonFooter$
-       .subscribe(item => this.showBundleButton = item)
+    this.subscription = this.helper._bundleButtonFooter$
+      .subscribe(item => this.showBundleButton = item)
   }
   constructor(private fb: FormBuilder,
-     private searchItemService: SearchItemService, 
-     private helper: HelperService,
-     private openCurrentBundle: MatBottomSheet) { }
+    private searchItemService: SearchItemService,
+    private helper: HelperService,
+    private openCurrentBundle: MatBottomSheet) { }
   public getSearchResult(searchTerm) {
     this.searchItemService.getSearchResult(searchTerm).subscribe(
       data => {
@@ -80,6 +81,42 @@ export class AppComponent implements OnInit {
         console.log(error);
       }
     );
+  }
+  getMatchedItems(components: any[]) {
+
+    var duplicates = this.getDuplicates(components);
+    var duplicatedComponents = components.filter((c) => duplicates.includes(c['article-title']));
+    var duplicatedComponentsDiffComp = duplicatedComponents.filter((item, index, self) =>
+      index === self.findIndex((t) => (
+        t.company === item.company && t['article-title'] === item['article-title']
+      ))
+    );
+    
+    var duplicatesDiff = this.getDuplicates(duplicatedComponentsDiffComp);
+    var duplicatedComponentsDiff = duplicatedComponentsDiffComp.filter((c) => duplicatesDiff.includes(c['article-title']));
+
+    var output = duplicatesDiff.map(data => {
+      var arrOut = duplicatedComponentsDiff.reduce((acc,curVal) => {
+        if (data == curVal['article-title']) {
+          acc.push(curVal);
+        }
+        return acc;
+      }, []);
+      return {component_match:arrOut};
+    });
+    console.log(output);
+    return output;
+  }
+  getDuplicates(components: any[]){
+    var uniq = components
+      .map((component) => {
+        return { count: 1, 'article-title': component['article-title'] }
+      })
+      .reduce((a, b) => {
+        a[b['article-title']] = (a[b['article-title']] || 0) + b.count
+        return a
+      }, {})
+    return Object.keys(uniq).filter((a) => uniq[a] > 1)
   }
   displayFn(component: BuildingComponent) {
     if (component) { return component["article-title"]; }

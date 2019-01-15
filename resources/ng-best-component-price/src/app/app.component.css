@@ -33,3 +33,7 @@ mat-toolbar-row > form {
   padding-top: 10px;
   padding-bottom: 10px; 
 }
+mat-option.mat-option {
+  height: auto;
+  margin: 1px;
+}

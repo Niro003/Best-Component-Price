@@ -1,0 +1,1296 @@
+{ 
+    "_id" : ObjectId("5bf1cac6b143150ed3fe477e"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 4,99", 
+    "image" : "https://images.obi.at/product/AT/thumb/519415_1.jpg", 
+    "article-title" : "Baumit Trockenbeton 20 40 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe477f"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 15,99", 
+    "image" : "https://images.obi.at/product/DE/thumb/319775_1.jpg", 
+    "article-title" : "OBI Bodenausgleichsmasse 3 mm - 30 mm Grau 10 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4780"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 15,99", 
+    "image" : "https://images.obi.at/product/DE/thumb/319771_1.jpg", 
+    "article-title" : "OBI Bodenausgleichsmasse 1 mm - 10 mm Grau 10 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4781"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 0,44 / kg", 
+    "image" : "https://images.obi.at/product/AT/thumb/352684_1.jpg", 
+    "article-title" : "Baumit Estrich SpeedFaser E300 SE 25 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4782"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 17,99", 
+    "image" : "https://images.obi.at/product/AT/thumb/677376_1.jpg", 
+    "article-title" : "Cimsec Nivelliermasse 20 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4783"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 2,19", 
+    "image" : "https://images.obi.at/product/AT/thumb/351477_1.jpg", 
+    "article-title" : "Modelliergips 1 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4784"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 3,19", 
+    "image" : "https://images.obi.at/product/AT/thumb/261769_1.jpg", 
+    "article-title" : "Zementmörtel 40 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4785"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 3,39", 
+    "image" : "https://images.obi.at/product/AT/thumb/174091_1.jpg", 
+    "article-title" : "Grauzement 2,5 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4786"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 11,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Holzschutzgrund (IPBC) Transparent 750 ml", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4787"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 17,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Catnic Innenputzgewebe 75 g/m² Weiß 1 m x 10 m", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4788"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 3,19", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Zement Ego 25 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4789"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 6,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Tiefgrund 5 l", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe478a"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 13,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Knauf Tiefengrund LF 2,5 l", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe478b"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 22,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Röfix 700 Edelputz Weiß 1 mm Körnung 25 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe478c"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 27,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Knauf Easy Putz 1 mm Körnung 10 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe478d"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 7,90", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Quick-Mix Ruck-Zuck Beton 25 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe478e"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 6,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Gelbband 0 - 4 mm Flächenspachtel / Spachtelgips 5 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe478f"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 9,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Ultrament Knet Beton 2,5 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4790"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 12,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Haftgrund 1 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4791"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 15,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Bodenspachtel 25 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4792"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 10,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Knauf Rotband Haftputz 25 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4793"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 10,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Grünband 0 - 90 mm Füll- und Glättspachtel K1 5 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4794"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 3,59", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Knauf Tockenbeton 5 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4795"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 13,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Wandspachtel innen 10 kg mit Tragegriff", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4796"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 25,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Cimsec Ausgleichsmörtel Schnell Plus 25 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4797"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 21,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Tiefgrund Transparent 5 l", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4798"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 12,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Betonfix Haftbrücke 1 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4799"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 7,95", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Tassullo Schnellbeton Ratz Fatz 25 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe479a"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 11,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Röfix 510 Kalk-Zement-Grundputz 30 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe479b"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 6,29", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Agro Rapid Blitzmörtel 1 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe479c"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 12,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Universal Wand- & Bodenspachtel 20 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe479d"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 6,79", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Reparaturmörtel 5 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe479e"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 5,29", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "F2F - Fertigfeinspachtel Weiß 1 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe479f"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 11,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Blauband 3 - 8 mm Tünich Gips-Dünnputz 25 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47a0"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 26,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Estrich Rissharz 94G 1 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47a1"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 4,39", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Ignit Feuerzement 2 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47a2"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 26,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Cimsec Niveliermasse Schnell Plus 25 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47a3"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 1,94", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Catnic Gewebe-Eckwinkel PVC 10 x 15 cm x 2,5 m Weiß", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47a4"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 43,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Oberputz Silikat Weiß 2 mm Körnung 30 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47a5"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 3,79", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Füllspachtel außen 1 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47a6"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 4,69", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Weißzement 2,5 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47a7"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 9,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Catnic Laibungsprofil mit Schutzlippe 12 mm x 25 mm x 2,6 m", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47a8"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 29,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Sperrgrund Weiß matt 5 l", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47a9"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 7,29", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Putz- und Mauermörtel 10 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47aa"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 16,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Knauf Fliessspachtel allround 10 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47ab"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 24,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Cimsec Tiefengrund 5 l", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47ac"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 8,79", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Ravenit DM-F Betondichtmittel 1 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47ad"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 22,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Putzgrund Weiß matt 5 l", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47ae"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 16,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Röfix 360 Weißkalk-Struktur-Deckputz Körnung 1,5 mm 25 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47af"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 16,79", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Holz-Isoliergrund Weiß 750 ml", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47b0"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 37,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Fugenvergussmasse Bitoplast Elastic 5 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47b1"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 26,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Knauf Fließspachtel Faserflex 15 mm 10 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47b2"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 8,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Estrilan K Estrichzusatz 1 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47b3"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 10,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Rostschutzgrund Weiß matt 375 ml", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47b4"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 6,79", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Universal Vorstreichfarbe Weiß matt 375 ml", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47b5"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 7,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Tiefgrund Transparent 1 l", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47b6"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 12,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Cimsec Ausgleichsmörtel Schnell 5 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47b7"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 64,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Catnic VWS Gewebe 165 g/m² Weiß 1 m x 50 m", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47b8"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 18,95", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Knauf Super Finish Feinspachtelmasse 11,5 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47b9"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 11,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Holz-Imprägniergrund Transparent 750 ml", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47ba"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 11,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Planfix RZ Grau Außenspachtel 5 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47bb"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 9,75", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Hammerite Rost-Blocker Braun matt 250 ml", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47bc"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 11,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Hammerite Rost Entferner Tauchbad-Konzentrat Grün 500 ml", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47bd"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 11,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Universal Vorstreichfarbe Weiß matt 750 ml", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47be"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 8,79", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Estrilan LP Mischöl Estrichhilfe 1 kg", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47bf"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 16,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Flecken-Decker Isoliergrund Weiß matt 750 ml", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47c0"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 1,29", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Innenputzprofil 12 mm x 2000 mm", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47c1"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 13,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Catnic PVC Eckprofil Multi gerollt", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47c2"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 3,49", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Catnic Fugenstreifen Selbstklebend 5 cm x 20 m", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47c3"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 10,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Catnic Rissbrücke Glasfaservlies 40 - 45 g/m² 10 cm x 50 m", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47c4"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 43,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Catnic Innenputzgewebe 75 g/m² Weiß 1 m x 50 m", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47c5"), 
+    "category" : "putz-moertel-zement", 
+    "price" : "€ 13,99", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Catnic Sockelprofil Duobase PVC zweiteilig 200 / 205 cm", 
+    "mainCategory" : "baustoffe", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47c6"), 
+    "category" : "laminat", 
+    "price" : "€ 7,99 / m²", 
+    "image" : "https://images.obi.at/product/CZ/thumb/534638_2.jpg", 
+    "article-title" : "OBI Laminatboden Comfort Sea Pine 7 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47c7"), 
+    "category" : "laminat", 
+    "price" : "€ 7,99 / m²", 
+    "image" : "https://images.obi.at/product/CZ/thumb/106545_6.jpg", 
+    "article-title" : "Laminatboden Pine Grizzly Pinie hell", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47c8"), 
+    "category" : "laminat", 
+    "price" : "€ 6,99 / m²", 
+    "image" : "https://images.obi.at/product/HU/thumb/413518_1.jpg", 
+    "article-title" : "Egger Laminatboden Basic Sonnenberg Fichte", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47c9"), 
+    "category" : "laminat", 
+    "price" : "€ 4,69 / m²", 
+    "image" : "https://images.obi.at/product/DE/thumb/729306_3.jpg", 
+    "article-title" : "CMI Laminatboden Walnuss 6 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47ca"), 
+    "category" : "laminat", 
+    "price" : "€ 11,71 / m²", 
+    "image" : "https://images.obi.at/product/SK/thumb/502809_1.jpg", 
+    "article-title" : "Parador Laminatboden Basic 200 Eiche Horizont natur Landhausdiele", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47cb"), 
+    "category" : "laminat", 
+    "price" : "€ 7,99 / m²", 
+    "image" : "https://images.obi.at/product/DE/thumb/661546_1.jpg", 
+    "article-title" : "OBI Laminatboden Comfort Hemlock Rustic 8 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47cc"), 
+    "category" : "laminat", 
+    "price" : "€ 6,49 / m²", 
+    "image" : "https://images.obi.at/product/SI/thumb/117361_1.jpg", 
+    "article-title" : "OBI Laminatboden Comfort Royal Elm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47cd"), 
+    "category" : "laminat", 
+    "price" : "€ 11,49 / m²", 
+    "image" : "https://images.obi.at/product/AT/thumb/969870_1.jpg", 
+    "article-title" : "OBI Laminatboden Comfort Toscana Flair Altholzstruktur 7 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47ce"), 
+    "category" : "laminat", 
+    "price" : "€ 9,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Eiche", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47cf"), 
+    "category" : "laminat", 
+    "price" : "€ 6,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Driftwood Eiche", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47d0"), 
+    "category" : "laminat", 
+    "price" : "€ 4,69 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "CMI Laminatboden Buche 6 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47d1"), 
+    "category" : "laminat", 
+    "price" : "€ 9,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Pinie Florenz Altholzstruktur 7 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47d2"), 
+    "category" : "laminat", 
+    "price" : "€ 7,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Kiefer Genua 7 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47d3"), 
+    "category" : "laminat", 
+    "price" : "€ 8,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Eiche Rustikal Altholzstruktur", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47d4"), 
+    "category" : "laminat", 
+    "price" : "€ 13,49 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Fichte hell", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47d5"), 
+    "category" : "laminat", 
+    "price" : "€ 11,49 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Newspaper 7 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47d6"), 
+    "category" : "laminat", 
+    "price" : "€ 16,56 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Eco Balance Eiche History Landhausdiele dunkel", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47d7"), 
+    "category" : "laminat", 
+    "price" : "€ 16,79 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Schiefer Nardo dunkel", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47d8"), 
+    "category" : "laminat", 
+    "price" : "€ 10,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Basic 200 Akazie Schiffsboden Grau", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47d9"), 
+    "category" : "laminat", 
+    "price" : "€ 13,18 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Basic 400 Kastanie Vintage braun", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47da"), 
+    "category" : "laminat", 
+    "price" : "€ 6,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Zwetschge dunkel", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47db"), 
+    "category" : "laminat", 
+    "price" : "€ 13,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Celtic Oak Eiche Altholzstruktur hell", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47dc"), 
+    "category" : "laminat", 
+    "price" : "€ 9,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Eiche Antik Grau 7 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47dd"), 
+    "category" : "laminat", 
+    "price" : "€ 10,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Basic 200 Ahorn", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47de"), 
+    "category" : "laminat", 
+    "price" : "€ 13,80 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Basic 400 Eiche History Landhausdiele", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47df"), 
+    "category" : "laminat", 
+    "price" : "€ 13,29 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Basic 400 Eiche Horizont Landhausdiele", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47e0"), 
+    "category" : "laminat", 
+    "price" : "€ 8,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Egger Basic Laminat Achensee Eiche", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47e1"), 
+    "category" : "laminat", 
+    "price" : "€ 12,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Basic 200 Eiche lichtgrau Landhausdiele mit V-Fuge", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47e2"), 
+    "category" : "laminat", 
+    "price" : "€ 9,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Nussbaum Naturmatt dunkel", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47e3"), 
+    "category" : "laminat", 
+    "price" : "€ 16,79 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Schiefer Vesuv Antik 8 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47e4"), 
+    "category" : "laminat", 
+    "price" : "€ 16,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Excellent Eiche Farco Elegance", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47e5"), 
+    "category" : "laminat", 
+    "price" : "€ 17,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Excellent Havanna Line Eiche Fresco Borke dunkel", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47e6"), 
+    "category" : "laminat", 
+    "price" : "€ 10,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Masterfloor Laminatboden Kiefer Multistripe Barn", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47e7"), 
+    "category" : "laminat", 
+    "price" : "€ 13,49 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Eiche Desert", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47e8"), 
+    "category" : "laminat", 
+    "price" : "€ 16,79 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Himalaya Schiefer hell", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47e9"), 
+    "category" : "laminat", 
+    "price" : "€ 16,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Excellent Eiche Farco Trend", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47ea"), 
+    "category" : "laminat", 
+    "price" : "€ 16,79 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Schiefer Sahara Antik hell", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47eb"), 
+    "category" : "laminat", 
+    "price" : "€ 13,49 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Fresco Altholzstruktur Weiß hell", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47ec"), 
+    "category" : "laminat", 
+    "price" : "€ 14,49 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Excellent Eiche Country Style", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47ed"), 
+    "category" : "laminat", 
+    "price" : "€ 9,95 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Historic Pine 7 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47ee"), 
+    "category" : "laminat", 
+    "price" : "€ 8,49 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Kiefer Amelia hell", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47ef"), 
+    "category" : "laminat", 
+    "price" : "€ 9,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Walnuss Tobacco dunkel", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47f0"), 
+    "category" : "laminat", 
+    "price" : "€ 9,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Wenge Altholzstruktur dunkel", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47f1"), 
+    "category" : "laminat", 
+    "price" : "€ 16,79 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Palatino Travertin Antik Schiefer hell", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47f2"), 
+    "category" : "laminat", 
+    "price" : "€ 10,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Egger Home Laminatboden Nidaros Eiche Schwarz", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47f3"), 
+    "category" : "laminat", 
+    "price" : "€ 9,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Eiche Antik Altholzstruktur", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47f4"), 
+    "category" : "laminat", 
+    "price" : "€ 9,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Kastanie Altholzstruktur", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47f5"), 
+    "category" : "laminat", 
+    "price" : "€ 20,07 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Trendtime 4 Castello Grey", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47f6"), 
+    "category" : "laminat", 
+    "price" : "€ 9,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Apfel Naturmatt 7 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47f7"), 
+    "category" : "laminat", 
+    "price" : "€ 10,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Basic 200 Walnuss dunkel", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47f8"), 
+    "category" : "laminat", 
+    "price" : "€ 11,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Kiefer Vintage", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47f9"), 
+    "category" : "laminat", 
+    "price" : "€ 11,82 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Basic 200 Kastanie Vintage braun Schiffsboden", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47fa"), 
+    "category" : "laminat", 
+    "price" : "€ 14,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Basic 400 Teak gebleicht Landhausdiele mit V-Fuge", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47fb"), 
+    "category" : "laminat", 
+    "price" : "€ 28,29 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Trendtime 4 Castello Stein", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47fc"), 
+    "category" : "laminat", 
+    "price" : "€ 10,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Masterfloor Laminatboden Kiefer Cottage Antik", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47fd"), 
+    "category" : "laminat", 
+    "price" : "€ 9,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Eibe Natur Pore 7 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47fe"), 
+    "category" : "laminat", 
+    "price" : "€ 9,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Buche Naturmatt hell", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe47ff"), 
+    "category" : "laminat", 
+    "price" : "€ 13,49 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Listone Pore", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4800"), 
+    "category" : "laminat", 
+    "price" : "€ 9,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Elesgo Laminatboden Limited Edition Eiche Silber", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4801"), 
+    "category" : "laminat", 
+    "price" : "€ 9,94 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Wasabi Eiche Altholzstruktur 7 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4802"), 
+    "category" : "laminat", 
+    "price" : "€ 9,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Pinie Mokka dunkel", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4803"), 
+    "category" : "laminat", 
+    "price" : "€ 6,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Buche Altholzstruktur 7 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4804"), 
+    "category" : "laminat", 
+    "price" : "€ 11,56 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Eiche Smaragd dunkel", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4805"), 
+    "category" : "laminat", 
+    "price" : "€ 10,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Eiche Trevi 7 mm", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4806"), 
+    "category" : "laminat", 
+    "price" : "€ 10,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Basic 200 Eiche sägerau weiß Schiffsboden", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4807"), 
+    "category" : "laminat", 
+    "price" : "€ 12,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Basic 200 Eiche naturgrau Landhausdiele mit V-Fuge", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4808"), 
+    "category" : "laminat", 
+    "price" : "€ 15,35 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Parador Laminatboden Classic 1050 Eiche Vintage Weiß Landhausdiele V-Fuge", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe4809"), 
+    "category" : "laminat", 
+    "price" : "€ 16,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Beton Oxid", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe480a"), 
+    "category" : "laminat", 
+    "price" : "€ 21,99 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "Laminatboden Heritage Barnwood", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe480b"), 
+    "category" : "laminat", 
+    "price" : "€ 14,49 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Excellent Buche Natur Altholzstruktur", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe480c"), 
+    "category" : "laminat", 
+    "price" : "€ 13,49 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Comfort Eiche Nostalgie Altholzstruktur", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
+{ 
+    "_id" : ObjectId("5bf1cac7b143150ed3fe480d"), 
+    "category" : "laminat", 
+    "price" : "€ 14,49 / m²", 
+    "image" : "/skin/images/43t.gif", 
+    "article-title" : "OBI Laminatboden Excellent Eiche Luna hell", 
+    "mainCategory" : "laminat-parkett-vinylboeden", 
+    "article-link" : "http://www.obi.at"
+}
