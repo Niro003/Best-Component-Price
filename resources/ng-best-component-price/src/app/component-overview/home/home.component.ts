@@ -12,7 +12,7 @@ export interface DialogData {
 export class HomeComponent implements OnInit {
 
   constructor(private componentStatisticsService: ComponentStatisticsService) { }
-  private components:any;
+  public components:any;
   ngOnInit() {
     this.componentStatisticsService.getComponentStatistics().subscribe(
       components => {

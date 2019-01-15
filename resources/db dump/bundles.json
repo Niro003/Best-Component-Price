@@ -1,0 +1,2253 @@
+{ 
+    "_id" : ObjectId("5bf9500a51e3f7037721b3e2"), 
+    "updated_at" : ISODate("2018-11-24T13:20:10.000+0000"), 
+    "created_at" : ISODate("2018-11-24T13:20:10.000+0000")
+}
+{ 
+    "_id" : ObjectId("5bf9507451e3f70caf0c9262"), 
+    "updated_at" : ISODate("2018-11-24T13:21:56.000+0000"), 
+    "created_at" : ISODate("2018-11-24T13:21:56.000+0000")
+}
+{ 
+    "_id" : ObjectId("5bf9508951e3f70374744962"), 
+    "updated_at" : ISODate("2018-11-24T13:22:17.000+0000"), 
+    "created_at" : ISODate("2018-11-24T13:22:17.000+0000")
+}
+{ 
+    "_id" : ObjectId("5bf9515251e3f7037541b0b2"), 
+    "updated_at" : ISODate("2018-11-24T13:25:38.000+0000"), 
+    "created_at" : ISODate("2018-11-24T13:25:38.000+0000")
+}
+{ 
+    "_id" : ObjectId("5bf952b051e3f7037627e2f2"), 
+    "updated_at" : ISODate("2018-11-24T13:31:28.000+0000"), 
+    "created_at" : ISODate("2018-11-24T13:31:28.000+0000")
+}
+{ 
+    "_id" : ObjectId("5bf952c551e3f7104920e212"), 
+    "updated_at" : ISODate("2018-11-24T13:31:49.000+0000"), 
+    "created_at" : ISODate("2018-11-24T13:31:49.000+0000")
+}
+{ 
+    "_id" : ObjectId("5bf9536051e3f703786e0272"), 
+    "name" : "dddssdss", 
+    "updated_at" : ISODate("2018-11-24T13:34:24.000+0000"), 
+    "created_at" : ISODate("2018-11-24T13:34:24.000+0000")
+}
+{ 
+    "_id" : ObjectId("5bf954e251e3f7037c68cc72"), 
+    "name" : "dddssdss", 
+    "updated_at" : ISODate("2018-11-24T13:40:50.000+0000"), 
+    "created_at" : ISODate("2018-11-24T13:40:50.000+0000")
+}
+{ 
+    "_id" : ObjectId("5bf9553551e3f7037e7d7732"), 
+    "name" : "dddssdss", 
+    "updated_at" : ISODate("2018-11-24T13:42:13.000+0000"), 
+    "created_at" : ISODate("2018-11-24T13:42:13.000+0000")
+}
+{ 
+    "_id" : ObjectId("5bf9567551e3f703802f4f22"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4679e0", 
+            "category" : "Badkeramik", 
+            "price" : "98,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/705/261/33/DV_157x152_7554940_01_4c_RO_20130524130501.jpg", 
+            "article-title" : "Aufsatzwaschbecken Sanotechnik 80x48x17 cm weiß", 
+            "company" : "../assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b46783f", 
+            "category" : "Badausstattung", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/228/04/DV_157x152_8430841_01_4c_DE_20180724101651.jpg", 
+            "article-title" : "Duschstange mit Sicherheitsgriff Tiger Boston Comfort & Safety rechts edelstahl gebürstet", 
+            "company" : "../assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b46783f", 
+            "category" : "Badausstattung", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/228/04/DV_157x152_8430841_01_4c_DE_20180724101651.jpg", 
+            "article-title" : "Duschstange mit Sicherheitsgriff Tiger Boston Comfort & Safety rechts edelstahl gebürstet", 
+            "company" : "../assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b46783f", 
+            "category" : "Badausstattung", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/228/04/DV_157x152_8430841_01_4c_DE_20180724101651.jpg", 
+            "article-title" : "Duschstange mit Sicherheitsgriff Tiger Boston Comfort & Safety rechts edelstahl gebürstet", 
+            "company" : "../assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-11-24T13:47:33.000+0000"), 
+    "created_at" : ISODate("2018-11-24T13:47:33.000+0000")
+}
+{ 
+    "_id" : ObjectId("5bfebce551e3f70bd02e4c32"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b46745b", 
+            "category" : "Badausstattung", 
+            "price" : "9,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/539/18/DV_157x152_5833475_01_4c_DE_20150626034818.jpg", 
+            "article-title" : "Aufbewahrungsbox Korziol Utensilo Surf M taupe", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b46745b", 
+            "category" : "Badausstattung", 
+            "price" : "9,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/539/18/DV_157x152_5833475_01_4c_DE_20150626034818.jpg", 
+            "article-title" : "Aufbewahrungsbox Korziol Utensilo Surf M taupe", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b46745b", 
+            "category" : "Badausstattung", 
+            "price" : "9,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/539/18/DV_157x152_5833475_01_4c_DE_20150626034818.jpg", 
+            "article-title" : "Aufbewahrungsbox Korziol Utensilo Surf M taupe", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467866", 
+            "category" : "Warmwassergeraete", 
+            "price" : "99,50 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/495/152/81/DV_157x152_2640020_01_4c_DE_20141025193554.jpg", 
+            "article-title" : "Sicherheitsgruppe SYR KV 40 für Elektrospeicher bis 200 Liter mit Druckminderer", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-11-28T16:05:57.000+0000"), 
+    "created_at" : ISODate("2018-11-28T16:05:57.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03216592223d4f8a538702"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467866", 
+            "category" : "Warmwassergeraete", 
+            "price" : "99,50 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/495/152/81/DV_157x152_2640020_01_4c_DE_20141025193554.jpg", 
+            "article-title" : "Sicherheitsgruppe SYR KV 40 für Elektrospeicher bis 200 Liter mit Druckminderer", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T00:03:49.000+0000"), 
+    "created_at" : ISODate("2018-12-02T00:03:49.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c032a1c92223d036b312e02"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b467459", 
+            "category" : "Badausstattung", 
+            "price" : "9,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/539/31/DV_157x152_5833481_01_4c_DE_20150626034612.jpg", 
+            "article-title" : "Aufbewahrungsbox Korziol Utensilo Bottichelli M türkis", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467459", 
+            "category" : "Badausstattung", 
+            "price" : "9,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/539/31/DV_157x152_5833481_01_4c_DE_20150626034612.jpg", 
+            "article-title" : "Aufbewahrungsbox Korziol Utensilo Bottichelli M türkis", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467866", 
+            "category" : "Warmwassergeraete", 
+            "price" : "99,50 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/495/152/81/DV_157x152_2640020_01_4c_DE_20141025193554.jpg", 
+            "article-title" : "Sicherheitsgruppe SYR KV 40 für Elektrospeicher bis 200 Liter mit Druckminderer", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678d9", 
+            "category" : "Warmwassergeraete", 
+            "price" : "998,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/497/387/50/DV_157x152_5892982_02_4c_AT_20151102221657.jpg", 
+            "article-title" : "Hängespeicher Ariston Nuos Primo 80 Übertisch 80 Liter mit Wärmepumpe", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467866", 
+            "category" : "Warmwassergeraete", 
+            "price" : "99,50 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/495/152/81/DV_157x152_2640020_01_4c_DE_20141025193554.jpg", 
+            "article-title" : "Sicherheitsgruppe SYR KV 40 für Elektrospeicher bis 200 Liter mit Druckminderer", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4680df", 
+            "category" : "Badmoebel", 
+            "price" : "969,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/271/919/DV_157x152_6535430_01_4c_AT_20180727121651.jpg", 
+            "article-title" : "Spiegelschrank Marlin 3070 140x75,2x13,6 cm anthrazit glänzend", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466fcb", 
+            "category" : "Badausstattung", 
+            "price" : "95,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/499/290/2/DV_157x152_8417395_01_4c_DE_20120912101635.jpg", 
+            "article-title" : "Duschklappsitz Tiger Comfort & Safety antharzit-chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe47c8", 
+            "category" : "laminat", 
+            "price" : "€ 6,99 / m²", 
+            "image" : "https://images.obi.at/product/HU/thumb/413518_1.jpg", 
+            "article-title" : "Egger Laminatboden Basic Sonnenberg Fichte", 
+            "mainCategory" : "laminat-parkett-vinylboeden", 
+            "company" : "/assets/obi-print.jpg"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T00:41:00.000+0000"), 
+    "created_at" : ISODate("2018-12-02T00:41:00.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c032a3992223d03676090f2"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b466fcb", 
+            "category" : "Badausstattung", 
+            "price" : "95,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/499/290/2/DV_157x152_8417395_01_4c_DE_20120912101635.jpg", 
+            "article-title" : "Duschklappsitz Tiger Comfort & Safety antharzit-chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466fcb", 
+            "category" : "Badausstattung", 
+            "price" : "95,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/499/290/2/DV_157x152_8417395_01_4c_DE_20120912101635.jpg", 
+            "article-title" : "Duschklappsitz Tiger Comfort & Safety antharzit-chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466fcb", 
+            "category" : "Badausstattung", 
+            "price" : "95,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/499/290/2/DV_157x152_8417395_01_4c_DE_20120912101635.jpg", 
+            "article-title" : "Duschklappsitz Tiger Comfort & Safety antharzit-chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466fcb", 
+            "category" : "Badausstattung", 
+            "price" : "95,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/499/290/2/DV_157x152_8417395_01_4c_DE_20120912101635.jpg", 
+            "article-title" : "Duschklappsitz Tiger Comfort & Safety antharzit-chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466fcb", 
+            "category" : "Badausstattung", 
+            "price" : "95,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/499/290/2/DV_157x152_8417395_01_4c_DE_20120912101635.jpg", 
+            "article-title" : "Duschklappsitz Tiger Comfort & Safety antharzit-chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466fcb", 
+            "category" : "Badausstattung", 
+            "price" : "95,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/499/290/2/DV_157x152_8417395_01_4c_DE_20120912101635.jpg", 
+            "article-title" : "Duschklappsitz Tiger Comfort & Safety antharzit-chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T00:41:29.000+0000"), 
+    "created_at" : ISODate("2018-12-02T00:41:29.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c032cec92223d03687a6ec2"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T00:53:00.000+0000"), 
+    "created_at" : ISODate("2018-12-02T00:53:00.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c032d0892223d03693b4182"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T00:53:28.000+0000"), 
+    "created_at" : ISODate("2018-12-02T00:53:28.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c032d4b92223d036b312e03"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T00:54:35.000+0000"), 
+    "created_at" : ISODate("2018-12-02T00:54:35.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c032f3592223d036a512ad2"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T01:02:45.000+0000"), 
+    "created_at" : ISODate("2018-12-02T01:02:45.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c038acd92223d03951c1f22"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T07:33:33.000+0000"), 
+    "created_at" : ISODate("2018-12-02T07:33:33.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c039cb792223d036c156a32"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T08:49:59.000+0000"), 
+    "created_at" : ISODate("2018-12-02T08:49:59.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c039ef192223d036f3703e2"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4679e0", 
+            "category" : "Badkeramik", 
+            "price" : "98,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/705/261/33/DV_157x152_7554940_01_4c_RO_20130524130501.jpg", 
+            "article-title" : "Aufsatzwaschbecken Sanotechnik 80x48x17 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4679e0", 
+            "category" : "Badkeramik", 
+            "price" : "98,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/705/261/33/DV_157x152_7554940_01_4c_RO_20130524130501.jpg", 
+            "article-title" : "Aufsatzwaschbecken Sanotechnik 80x48x17 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4679e0", 
+            "category" : "Badkeramik", 
+            "price" : "98,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/705/261/33/DV_157x152_7554940_01_4c_RO_20130524130501.jpg", 
+            "article-title" : "Aufsatzwaschbecken Sanotechnik 80x48x17 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4679e0", 
+            "category" : "Badkeramik", 
+            "price" : "98,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/705/261/33/DV_157x152_7554940_01_4c_RO_20130524130501.jpg", 
+            "article-title" : "Aufsatzwaschbecken Sanotechnik 80x48x17 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4679e0", 
+            "category" : "Badkeramik", 
+            "price" : "98,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/705/261/33/DV_157x152_7554940_01_4c_RO_20130524130501.jpg", 
+            "article-title" : "Aufsatzwaschbecken Sanotechnik 80x48x17 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4679e0", 
+            "category" : "Badkeramik", 
+            "price" : "98,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/705/261/33/DV_157x152_7554940_01_4c_RO_20130524130501.jpg", 
+            "article-title" : "Aufsatzwaschbecken Sanotechnik 80x48x17 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T08:59:29.000+0000"), 
+    "created_at" : ISODate("2018-12-02T08:59:29.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03a94392223d036e53a252"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a26873e1e77b466c3a", 
+            "category" : "Badarmaturen", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/782/6/DV_157x152_7558361_01_4c_DE_20120911210115.jpg", 
+            "article-title" : "Standventil Tiger Boston chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466e69", 
+            "category" : "Brausen-Duschsysteme", 
+            "price" : "95,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/493/233/51/DV_157x152_8828650_01_4c_DE_20130905150032.jpg", 
+            "article-title" : "Seitenbrause hansgrohe PuraVida 100 1jet 28430400", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466e69", 
+            "category" : "Brausen-Duschsysteme", 
+            "price" : "95,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/493/233/51/DV_157x152_8828650_01_4c_DE_20130905150032.jpg", 
+            "article-title" : "Seitenbrause hansgrohe PuraVida 100 1jet 28430400", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b46745c", 
+            "category" : "Badausstattung", 
+            "price" : "9,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/539/17/DV_157x152_5833474_01_4c_DE_20150626034131.jpg", 
+            "article-title" : "Aufbewahrungsbox Korziol Utensilo Surf M türkis transparent", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b46741e", 
+            "category" : "Badausstattung", 
+            "price" : "9,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/492/161/00/DV_157x152_8661816_01_4c_DE_20120925104245.jpg", 
+            "article-title" : "Seifenspender Form & Style Keramik verdrehte Form weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466fcb", 
+            "category" : "Badausstattung", 
+            "price" : "95,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/499/290/2/DV_157x152_8417395_01_4c_DE_20120912101635.jpg", 
+            "article-title" : "Duschklappsitz Tiger Comfort & Safety antharzit-chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466fcb", 
+            "category" : "Badausstattung", 
+            "price" : "95,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/499/290/2/DV_157x152_8417395_01_4c_DE_20120912101635.jpg", 
+            "article-title" : "Duschklappsitz Tiger Comfort & Safety antharzit-chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466fcb", 
+            "category" : "Badausstattung", 
+            "price" : "95,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/499/290/2/DV_157x152_8417395_01_4c_DE_20120912101635.jpg", 
+            "article-title" : "Duschklappsitz Tiger Comfort & Safety antharzit-chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T09:43:31.000+0000"), 
+    "created_at" : ISODate("2018-12-02T09:43:31.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03ac5092223d036005dee2"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b46745c", 
+            "category" : "Badausstattung", 
+            "price" : "9,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/539/17/DV_157x152_5833474_01_4c_DE_20150626034131.jpg", 
+            "article-title" : "Aufbewahrungsbox Korziol Utensilo Surf M türkis transparent", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b46745c", 
+            "category" : "Badausstattung", 
+            "price" : "9,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/539/17/DV_157x152_5833474_01_4c_DE_20150626034131.jpg", 
+            "article-title" : "Aufbewahrungsbox Korziol Utensilo Surf M türkis transparent", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b46745c", 
+            "category" : "Badausstattung", 
+            "price" : "9,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/539/17/DV_157x152_5833474_01_4c_DE_20150626034131.jpg", 
+            "article-title" : "Aufbewahrungsbox Korziol Utensilo Surf M türkis transparent", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T09:56:32.000+0000"), 
+    "created_at" : ISODate("2018-12-02T09:56:32.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03ac9992223d0361730992"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T09:57:45.000+0000"), 
+    "created_at" : ISODate("2018-12-02T09:57:45.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03ad0e92223d09f2210032"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T09:59:42.000+0000"), 
+    "created_at" : ISODate("2018-12-02T09:59:42.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03ad5692223d035e282e42"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T10:00:54.000+0000"), 
+    "created_at" : ISODate("2018-12-02T10:00:54.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03ad9e92223d035f1ff052"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T10:02:06.000+0000"), 
+    "created_at" : ISODate("2018-12-02T10:02:06.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03ade592223d036005dee3"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T10:03:17.000+0000"), 
+    "created_at" : ISODate("2018-12-02T10:03:17.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03ae5b92223d0361730993"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T10:05:15.000+0000"), 
+    "created_at" : ISODate("2018-12-02T10:05:15.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03ae8b92223d09f2210033"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T10:06:03.000+0000"), 
+    "created_at" : ISODate("2018-12-02T10:06:03.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03aed992223d0361730994"), 
+    "components" : [
+        {
+            "_id" : "5bf1cac7b143150ed3fe479b", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 6,29", 
+            "image" : "/skin/images/43t.gif", 
+            "article-title" : "Agro Rapid Blitzmörtel 1 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe479b", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 6,29", 
+            "image" : "/skin/images/43t.gif", 
+            "article-title" : "Agro Rapid Blitzmörtel 1 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe479b", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 6,29", 
+            "image" : "/skin/images/43t.gif", 
+            "article-title" : "Agro Rapid Blitzmörtel 1 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467866", 
+            "category" : "Warmwassergeraete", 
+            "price" : "99,50 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/495/152/81/DV_157x152_2640020_01_4c_DE_20141025193554.jpg", 
+            "article-title" : "Sicherheitsgruppe SYR KV 40 für Elektrospeicher bis 200 Liter mit Druckminderer", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467866", 
+            "category" : "Warmwassergeraete", 
+            "price" : "99,50 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/495/152/81/DV_157x152_2640020_01_4c_DE_20141025193554.jpg", 
+            "article-title" : "Sicherheitsgruppe SYR KV 40 für Elektrospeicher bis 200 Liter mit Druckminderer", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T10:07:21.000+0000"), 
+    "created_at" : ISODate("2018-12-02T10:07:21.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03b05592223d09f2210034"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T10:13:41.000+0000"), 
+    "created_at" : ISODate("2018-12-02T10:13:41.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03b0a392223d035e282e43"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T10:14:59.000+0000"), 
+    "created_at" : ISODate("2018-12-02T10:14:59.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03b70e92223d0361730995"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe47c8", 
+            "category" : "laminat", 
+            "price" : "€ 6,99 / m²", 
+            "image" : "https://images.obi.at/product/HU/thumb/413518_1.jpg", 
+            "article-title" : "Egger Laminatboden Basic Sonnenberg Fichte", 
+            "mainCategory" : "laminat-parkett-vinylboeden", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe47c8", 
+            "category" : "laminat", 
+            "price" : "€ 6,99 / m²", 
+            "image" : "https://images.obi.at/product/HU/thumb/413518_1.jpg", 
+            "article-title" : "Egger Laminatboden Basic Sonnenberg Fichte", 
+            "mainCategory" : "laminat-parkett-vinylboeden", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bdc90a26873e1e77b466a7f", 
+            "category" : "Badarmaturen", 
+            "price" : "99,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/499/691/0/DV_157x152_8402623_01_4c_DE_20150207133509.jpg", 
+            "article-title" : "Waschtischarmatur Avital Lauca chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a26873e1e77b466a7f", 
+            "category" : "Badarmaturen", 
+            "price" : "99,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/499/691/0/DV_157x152_8402623_01_4c_DE_20150207133509.jpg", 
+            "article-title" : "Waschtischarmatur Avital Lauca chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe479b", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 6,29", 
+            "image" : "/skin/images/43t.gif", 
+            "article-title" : "Agro Rapid Blitzmörtel 1 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T10:42:22.000+0000"), 
+    "created_at" : ISODate("2018-12-02T10:42:22.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03ba7f92223d035f451112"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T10:57:03.000+0000"), 
+    "created_at" : ISODate("2018-12-02T10:57:03.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03bb0792223d03601b68b2"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T10:59:19.000+0000"), 
+    "created_at" : ISODate("2018-12-02T10:59:19.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03bb7d92223d03624829c2"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T11:01:17.000+0000"), 
+    "created_at" : ISODate("2018-12-02T11:01:17.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03bbd792223d0ba70e0782"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T11:02:47.000+0000"), 
+    "created_at" : ISODate("2018-12-02T11:02:47.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03bc1a92223d035f451113"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T11:03:54.000+0000"), 
+    "created_at" : ISODate("2018-12-02T11:03:54.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c03be2392223d03624829c3"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a26873e1e77b466d24", 
+            "category" : "Badarmaturen", 
+            "price" : "998,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/492/275/70/DV_157x152_8488327_01_4c_AT_20121109045455.jpg", 
+            "article-title" : "Standarmatur Ottofond Gila chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a26873e1e77b466d24", 
+            "category" : "Badarmaturen", 
+            "price" : "998,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/492/275/70/DV_157x152_8488327_01_4c_AT_20121109045455.jpg", 
+            "article-title" : "Standarmatur Ottofond Gila chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a26873e1e77b466d24", 
+            "category" : "Badarmaturen", 
+            "price" : "998,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/492/275/70/DV_157x152_8488327_01_4c_AT_20121109045455.jpg", 
+            "article-title" : "Standarmatur Ottofond Gila chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467842", 
+            "category" : "Badausstattung", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/179/86/DV_157x152_8430840_01_4c_DE_20180724101651.jpg", 
+            "article-title" : "Duschstange mit Sicherheitsgriff Tiger Boston Comfort & Safety rechts edelstahl poliert", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4679e0", 
+            "category" : "Badkeramik", 
+            "price" : "98,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/705/261/33/DV_157x152_7554940_01_4c_RO_20130524130501.jpg", 
+            "article-title" : "Aufsatzwaschbecken Sanotechnik 80x48x17 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4677b5", 
+            "category" : "Badausstattung", 
+            "price" : "54,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/728/10/DV_157x152_8253897_02_4c_DE_20120810115326.jpg", 
+            "article-title" : "Reserverollenhalter hansgrohe LogisClassic chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe479d", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 6,79", 
+            "image" : "/skin/images/43t.gif", 
+            "article-title" : "Reparaturmörtel 5 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T11:12:35.000+0000"), 
+    "created_at" : ISODate("2018-12-02T11:12:35.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c0401ff92223d03601b68b3"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bf1cac6b143150ed3fe477e", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 4,99", 
+            "image" : "https://images.obi.at/product/AT/thumb/519415_1.jpg", 
+            "article-title" : "Baumit Trockenbeton 20 40 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac6b143150ed3fe477e", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 4,99", 
+            "image" : "https://images.obi.at/product/AT/thumb/519415_1.jpg", 
+            "article-title" : "Baumit Trockenbeton 20 40 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac6b143150ed3fe477e", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 4,99", 
+            "image" : "https://images.obi.at/product/AT/thumb/519415_1.jpg", 
+            "article-title" : "Baumit Trockenbeton 20 40 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T16:02:07.000+0000"), 
+    "created_at" : ISODate("2018-12-02T16:02:07.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c04408092223d08be5225c2"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b467866", 
+            "category" : "Warmwassergeraete", 
+            "price" : "99,50 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/495/152/81/DV_157x152_2640020_01_4c_DE_20141025193554.jpg", 
+            "article-title" : "Sicherheitsgruppe SYR KV 40 für Elektrospeicher bis 200 Liter mit Druckminderer", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467866", 
+            "category" : "Warmwassergeraete", 
+            "price" : "99,50 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/495/152/81/DV_157x152_2640020_01_4c_DE_20141025193554.jpg", 
+            "article-title" : "Sicherheitsgruppe SYR KV 40 für Elektrospeicher bis 200 Liter mit Druckminderer", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467866", 
+            "category" : "Warmwassergeraete", 
+            "price" : "99,50 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/495/152/81/DV_157x152_2640020_01_4c_DE_20141025193554.jpg", 
+            "article-title" : "Sicherheitsgruppe SYR KV 40 für Elektrospeicher bis 200 Liter mit Druckminderer", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467866", 
+            "category" : "Warmwassergeraete", 
+            "price" : "99,50 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/495/152/81/DV_157x152_2640020_01_4c_DE_20141025193554.jpg", 
+            "article-title" : "Sicherheitsgruppe SYR KV 40 für Elektrospeicher bis 200 Liter mit Druckminderer", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467866", 
+            "category" : "Warmwassergeraete", 
+            "price" : "99,50 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/495/152/81/DV_157x152_2640020_01_4c_DE_20141025193554.jpg", 
+            "article-title" : "Sicherheitsgruppe SYR KV 40 für Elektrospeicher bis 200 Liter mit Druckminderer", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T20:28:48.000+0000"), 
+    "created_at" : ISODate("2018-12-02T20:28:48.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c0440af92223d036b0542b2"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4677b5", 
+            "category" : "Badausstattung", 
+            "price" : "54,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/728/10/DV_157x152_8253897_02_4c_DE_20120810115326.jpg", 
+            "article-title" : "Reserverollenhalter hansgrohe LogisClassic chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4679e0", 
+            "category" : "Badkeramik", 
+            "price" : "98,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/705/261/33/DV_157x152_7554940_01_4c_RO_20130524130501.jpg", 
+            "article-title" : "Aufsatzwaschbecken Sanotechnik 80x48x17 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe479d", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 6,79", 
+            "image" : "/skin/images/43t.gif", 
+            "article-title" : "Reparaturmörtel 5 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4679e0", 
+            "category" : "Badkeramik", 
+            "price" : "98,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/705/261/33/DV_157x152_7554940_01_4c_RO_20130524130501.jpg", 
+            "article-title" : "Aufsatzwaschbecken Sanotechnik 80x48x17 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T20:29:35.000+0000"), 
+    "created_at" : ISODate("2018-12-02T20:29:35.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c0440ff92223d08be5225c3"), 
+    "components" : [
+        {
+            "_id" : "5bf1cac7b143150ed3fe478b", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 22,99", 
+            "image" : "/skin/images/43t.gif", 
+            "article-title" : "Röfix 700 Edelputz Weiß 1 mm Körnung 25 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe478b", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 22,99", 
+            "image" : "/skin/images/43t.gif", 
+            "article-title" : "Röfix 700 Edelputz Weiß 1 mm Körnung 25 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe478b", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 22,99", 
+            "image" : "/skin/images/43t.gif", 
+            "article-title" : "Röfix 700 Edelputz Weiß 1 mm Körnung 25 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T20:30:55.000+0000"), 
+    "created_at" : ISODate("2018-12-02T20:30:55.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c04475c92223d0b5b1e5fd2"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4679e6", 
+            "category" : "Badkeramik", 
+            "price" : "98,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/126/622/DV_157x152_7073469_01_4c_DE_20130129161530.jpg", 
+            "article-title" : "Aufsatzwaschbecken Form & Style Finn 55x45 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4679e6", 
+            "category" : "Badkeramik", 
+            "price" : "98,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/126/622/DV_157x152_7073469_01_4c_DE_20130129161530.jpg", 
+            "article-title" : "Aufsatzwaschbecken Form & Style Finn 55x45 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4679e6", 
+            "category" : "Badkeramik", 
+            "price" : "98,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/126/622/DV_157x152_7073469_01_4c_DE_20130129161530.jpg", 
+            "article-title" : "Aufsatzwaschbecken Form & Style Finn 55x45 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-02T20:58:04.000+0000"), 
+    "created_at" : ISODate("2018-12-02T20:58:04.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c06e11992223d038f6b5202"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-04T20:18:33.000+0000"), 
+    "created_at" : ISODate("2018-12-04T20:18:33.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c06e2aa92223d038b737d12"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b46740f", 
+            "category" : "Badausstattung", 
+            "price" : "8,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/539/22/DV_157x152_5833472_01_4c_DE_20150626034847.jpg", 
+            "article-title" : "Aufbewahrungsbox Korziol Utensilo Pottichelli M taupe", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b46740f", 
+            "category" : "Badausstattung", 
+            "price" : "8,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/539/22/DV_157x152_5833472_01_4c_DE_20150626034847.jpg", 
+            "article-title" : "Aufbewahrungsbox Korziol Utensilo Pottichelli M taupe", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b46740f", 
+            "category" : "Badausstattung", 
+            "price" : "8,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/539/22/DV_157x152_5833472_01_4c_DE_20150626034847.jpg", 
+            "article-title" : "Aufbewahrungsbox Korziol Utensilo Pottichelli M taupe", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-04T20:25:14.000+0000"), 
+    "created_at" : ISODate("2018-12-04T20:25:14.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c06e54f92223d038c023ff2"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b467930", 
+            "category" : "Badkeramik", 
+            "price" : "89,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/493/401/6/DV_157x152_8254778_01_4c_AT_20121029162724.jpg", 
+            "article-title" : "Aufsatzwaschbecken Ceravid Vienta 60x46 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467166", 
+            "category" : "Badausstattung", 
+            "price" : "25,80 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/128/188/DV_157x152_7463361_01_4c_AT_20170315182024.jpg", 
+            "article-title" : "Seifenspenderpumpe Smedbo Home chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467166", 
+            "category" : "Badausstattung", 
+            "price" : "25,80 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/128/188/DV_157x152_7463361_01_4c_AT_20170315182024.jpg", 
+            "article-title" : "Seifenspenderpumpe Smedbo Home chrom", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe47c8", 
+            "category" : "laminat", 
+            "price" : "€ 6,99 / m²", 
+            "image" : "https://images.obi.at/product/HU/thumb/413518_1.jpg", 
+            "article-title" : "Egger Laminatboden Basic Sonnenberg Fichte", 
+            "mainCategory" : "laminat-parkett-vinylboeden", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe47c8", 
+            "category" : "laminat", 
+            "price" : "€ 6,99 / m²", 
+            "image" : "https://images.obi.at/product/HU/thumb/413518_1.jpg", 
+            "article-title" : "Egger Laminatboden Basic Sonnenberg Fichte", 
+            "mainCategory" : "laminat-parkett-vinylboeden", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe47c8", 
+            "category" : "laminat", 
+            "price" : "€ 6,99 / m²", 
+            "image" : "https://images.obi.at/product/HU/thumb/413518_1.jpg", 
+            "article-title" : "Egger Laminatboden Basic Sonnenberg Fichte", 
+            "mainCategory" : "laminat-parkett-vinylboeden", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe47c8", 
+            "category" : "laminat", 
+            "price" : "€ 6,99 / m²", 
+            "image" : "https://images.obi.at/product/HU/thumb/413518_1.jpg", 
+            "article-title" : "Egger Laminatboden Basic Sonnenberg Fichte", 
+            "mainCategory" : "laminat-parkett-vinylboeden", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe47c8", 
+            "category" : "laminat", 
+            "price" : "€ 6,99 / m²", 
+            "image" : "https://images.obi.at/product/HU/thumb/413518_1.jpg", 
+            "article-title" : "Egger Laminatboden Basic Sonnenberg Fichte", 
+            "mainCategory" : "laminat-parkett-vinylboeden", 
+            "company" : "/assets/obi-print.jpg"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-04T20:36:31.000+0000"), 
+    "created_at" : ISODate("2018-12-04T20:36:31.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c06edd992223d038c023ff3"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b467009", 
+            "category" : "Badausstattung", 
+            "price" : "8,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/219/593/DV_157x152_6417889_01_4c_CH_20170828145737.jpg", 
+            "article-title" : "Anti-Rutsch-Sticker Kleine Wolke Flip blau 4-teilig.", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467009", 
+            "category" : "Badausstattung", 
+            "price" : "8,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/219/593/DV_157x152_6417889_01_4c_CH_20170828145737.jpg", 
+            "article-title" : "Anti-Rutsch-Sticker Kleine Wolke Flip blau 4-teilig.", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-04T21:12:57.000+0000"), 
+    "created_at" : ISODate("2018-12-04T21:12:57.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c0b9b6992223d089268d452"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b467844", 
+            "category" : "Badausstattung", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/227/94/DV_157x152_8418399_01_4c_DE_20180724101651.jpg", 
+            "article-title" : "Duschstange mit Sicherheitsgriff Tiger Boston Comfort & Safety edelstahl gebürstet Links", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png", 
+            "link" : "test", 
+            "total" : NumberInt(0), 
+            "count" : NumberInt(2)
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467844", 
+            "category" : "Badausstattung", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/227/94/DV_157x152_8418399_01_4c_DE_20180724101651.jpg", 
+            "article-title" : "Duschstange mit Sicherheitsgriff Tiger Boston Comfort & Safety edelstahl gebürstet Links", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png", 
+            "link" : "test", 
+            "total" : NumberInt(0), 
+            "count" : NumberInt(2)
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b467844", 
+            "category" : "Badausstattung", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/227/94/DV_157x152_8418399_01_4c_DE_20180724101651.jpg", 
+            "article-title" : "Duschstange mit Sicherheitsgriff Tiger Boston Comfort & Safety edelstahl gebürstet Links", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png", 
+            "link" : "test", 
+            "total" : NumberInt(0), 
+            "count" : NumberInt(2)
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-08T10:22:33.000+0000"), 
+    "created_at" : ISODate("2018-12-08T10:22:33.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c0ba7fd92223d0a2a6df1e2"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png", 
+            "link" : "test", 
+            "total" : NumberInt(0), 
+            "count" : NumberInt(27)
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-08T11:16:13.000+0000"), 
+    "created_at" : ISODate("2018-12-08T11:16:13.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c0bad8c92223d0a2e66dcd2"), 
+    "components" : [
+        {
+            "_id" : "5bf1cac7b143150ed3fe4782", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 17,99", 
+            "image" : "https://images.obi.at/product/AT/thumb/677376_1.jpg", 
+            "article-title" : "Cimsec Nivelliermasse 20 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe4782", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 17,99", 
+            "image" : "https://images.obi.at/product/AT/thumb/677376_1.jpg", 
+            "article-title" : "Cimsec Nivelliermasse 20 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe4782", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 17,99", 
+            "image" : "https://images.obi.at/product/AT/thumb/677376_1.jpg", 
+            "article-title" : "Cimsec Nivelliermasse 20 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }, 
+        {
+            "_id" : "5bf1cac7b143150ed3fe4782", 
+            "category" : "putz-moertel-zement", 
+            "price" : "€ 17,99", 
+            "image" : "https://images.obi.at/product/AT/thumb/677376_1.jpg", 
+            "article-title" : "Cimsec Nivelliermasse 20 kg", 
+            "mainCategory" : "baustoffe", 
+            "company" : "/assets/obi-print.jpg"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-08T11:39:56.000+0000"), 
+    "created_at" : ISODate("2018-12-08T11:39:56.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c0c41fb92223d21825863d2"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b466ebe", 
+            "category" : "Badausstattung", 
+            "price" : "33,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/497/817/7/DV_157x152_3868716_01_4c_SE_20171109215048.jpg", 
+            "article-title" : "Wandtrockner Artweger ArtDry 80 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-08T22:13:15.000+0000"), 
+    "created_at" : ISODate("2018-12-08T22:13:15.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c0c422792223d218132ec54"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b466ed5", 
+            "category" : "Badausstattung", 
+            "price" : "39,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/677/49/DV_157x152_3868719_01_4c_SE_20121022142601.jpg", 
+            "article-title" : "Wandtrockner Artweger ArtDry 100 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466ed5", 
+            "category" : "Badausstattung", 
+            "price" : "39,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/677/49/DV_157x152_3868719_01_4c_SE_20121022142601.jpg", 
+            "article-title" : "Wandtrockner Artweger ArtDry 100 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466ed5", 
+            "category" : "Badausstattung", 
+            "price" : "39,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/677/49/DV_157x152_3868719_01_4c_SE_20121022142601.jpg", 
+            "article-title" : "Wandtrockner Artweger ArtDry 100 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466ed5", 
+            "category" : "Badausstattung", 
+            "price" : "39,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/677/49/DV_157x152_3868719_01_4c_SE_20121022142601.jpg", 
+            "article-title" : "Wandtrockner Artweger ArtDry 100 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466ed5", 
+            "category" : "Badausstattung", 
+            "price" : "39,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/491/677/49/DV_157x152_3868719_01_4c_SE_20121022142601.jpg", 
+            "article-title" : "Wandtrockner Artweger ArtDry 100 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-08T22:13:59.000+0000"), 
+    "created_at" : ISODate("2018-12-08T22:13:59.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c0e880492223d0b066715e5"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b467866", 
+            "category" : "Warmwassergeraete", 
+            "price" : "99,50 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/495/152/81/DV_157x152_2640020_01_4c_DE_20141025193554.jpg", 
+            "article-title" : "Sicherheitsgruppe SYR KV 40 für Elektrospeicher bis 200 Liter mit Druckminderer", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b46745b", 
+            "category" : "Badausstattung", 
+            "price" : "9,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/496/539/18/DV_157x152_5833475_01_4c_DE_20150626034818.jpg", 
+            "article-title" : "Aufbewahrungsbox Korziol Utensilo Surf M taupe", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-10T15:36:36.000+0000"), 
+    "created_at" : ISODate("2018-12-10T15:36:36.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c0e8c0892223d0b7b098de4"), 
+    "components" : [
+
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-10T15:53:44.000+0000"), 
+    "created_at" : ISODate("2018-12-10T15:53:44.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c0e8d0692223d0f050efa19"), 
+    "components" : [
+
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-10T15:57:58.000+0000"), 
+    "created_at" : ISODate("2018-12-10T15:57:58.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c0e8d1192223d03a47e923e"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "article-link" : "http://www.hornbach.at", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "article-link" : "http://www.hornbach.at", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "article-link" : "http://www.hornbach.at", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "article-link" : "http://www.hornbach.at", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b4678dc", 
+            "category" : "Badkeramik", 
+            "price" : "99,00 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/703/165/466/DV_157x152_8612210_Web_01_4c_DE_20181016131753.jpg", 
+            "article-title" : "Aufsatzwaschbecken Jungborn Veronia 57x33 cm weiß", 
+            "article-link" : "http://www.hornbach.at", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-10T15:58:09.000+0000"), 
+    "created_at" : ISODate("2018-12-10T15:58:09.000+0000")
+}
+{ 
+    "_id" : ObjectId("5c0e909f92223d03a47e9241"), 
+    "components" : [
+        {
+            "_id" : "5bdc90a36873e1e77b467866", 
+            "category" : "Warmwassergeraete", 
+            "price" : "99,50 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/495/152/81/DV_157x152_2640020_01_4c_DE_20141025193554.jpg", 
+            "article-title" : "Sicherheitsgruppe SYR KV 40 für Elektrospeicher bis 200 Liter mit Druckminderer", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466ee8", 
+            "category" : "Badausstattung", 
+            "price" : "19,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/498/806/6/DV_157x152_8152257_01_4c_DE_20120802103852.jpg", 
+            "article-title" : "WC-Bürstengarnitur Spirella Quadro rot", 
+            "article-link" : "http://www.hornbach.at", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }, 
+        {
+            "_id" : "5bdc90a36873e1e77b466ee8", 
+            "category" : "Badausstattung", 
+            "price" : "19,90 €", 
+            "image" : "https://www.hornbach.at/data/shop/D04/001/780/498/806/6/DV_157x152_8152257_01_4c_DE_20120802103852.jpg", 
+            "article-title" : "WC-Bürstengarnitur Spirella Quadro rot", 
+            "article-link" : "http://www.hornbach.at", 
+            "company" : "/assets/800px-Hornbach_Logo_black.svg.png"
+        }
+    ], 
+    "name" : "user", 
+    "updated_at" : ISODate("2018-12-10T16:13:19.000+0000"), 
+    "created_at" : ISODate("2018-12-10T16:13:19.000+0000")
+}

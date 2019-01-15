@@ -3,11 +3,11 @@ from scrapy_splash import SplashRequest
 from pprint import pprint
 from scrapy.shell import inspect_response
 class HornbachSpider(scrapy.Spider):
-    name = "hornbach2"
+    name = "hornbach"
     child = 2;
     start_urls = [
-        'https://www.hornbach.at/shop/Badarmaturen/S2278/artikelliste.html'
-  #      'https://www.hornbach.at/shop/Baustoffe/S2255/artikelliste.html',
+  #      'https://www.hornbach.at/shop/Badarmaturen/S2278/artikelliste.html'
+        'https://www.hornbach.at/shop/Baustoffe/S2255/artikelliste.html',
   #      'https://www.hornbach.at/shop/Bodenbelaege/S2257/artikelliste.html',
   #      'https://www.hornbach.at/shop/Schrauben/S2505/artikelliste.html',
   #      'https://www.hornbach.at/shop/Farben/S2664/artikelliste.html',
@@ -23,20 +23,27 @@ class HornbachSpider(scrapy.Spider):
     script = """
              function main(splash)
                  assert(splash:go(splash.args.url))
-                 splash:wait(3)
+                 assert(splash:wait(5))
                  local hide = splash:select('div.bottom a.paging-btn.right.ng-hide');
                  if not hide then
                     local link = splash:select('div.bottom a.paging-btn.right')
-                    link:mouse_click()
+                    if link then
+                      link:mouse_click()
+                      assert(splash:wait(5))
+                    end                    
                  end
                  if hide then
                     local link = splash:select('li.sub-expanded > a')
-                    link:mouse_click()
-                    splash:wait(3)
-                    link = splash:select('li.sub:nth-child(' .. splash.args.child .. ') > a:nth-child(1)')
-                    link:mouse_click()
+                    if link then
+                      link:mouse_click()
+                      assert(splash:wait(5))
+                      link = splash:select('li.sub:nth-child(' .. splash.args.child .. ') > a:nth-child(1)')
+                        if link then
+                            link:mouse_click()
+                            assert(splash:wait(3))
+                        end                    
+                    end  
                  end
-                 splash:wait(3)
                   return {
                     url = splash:url(),
                     html = splash:html(),
@@ -67,7 +74,7 @@ class HornbachSpider(scrapy.Spider):
             self.currentCat = newCat;
         print response.url
         print self.currentCat
-        yield SplashRequest(url=response.url, callback=self.parse, endpoint="execute", args={'lua_source': self.script,'child':self.child})       
+        yield SplashRequest(url=response.url, callback=self.parse, endpoint="execute", args={'lua_source': self.script,'child':str(self.child)})       
 
             #docker run -p 8050:8050 scrapinghub/splash
             #mongoimport --db bcp_local --collection hornbach_components --file hornbach.json --jsonArray

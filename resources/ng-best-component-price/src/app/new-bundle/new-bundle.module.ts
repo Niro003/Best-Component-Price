@@ -6,6 +6,7 @@ import { ShowYourCurrentBundleComponent } from './show-your-current-bundle/show-
 import { MatListModule, MatDividerModule, MatButtonModule } from '@angular/material';
 import { BundleCreationComponent } from './bundle-creation/bundle-creation.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [ShowYourCurrentBundleComponent, BundleCreationComponent],
@@ -15,7 +16,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatListModule,
     MatDividerModule,
     FlexLayoutModule,
-    MatButtonModule
+    MatButtonModule,
+    FormsModule
   ],
   entryComponents: [ShowYourCurrentBundleComponent]
 })

@@ -7,7 +7,13 @@ class ObiSpider(scrapy.Spider):
     sub_child = 2;
     child = 2;
     start_urls = [
-        'https://www.obi.at/bauen/baustoffe/c/175'
+#        'https://www.obi.at/bauen/baustoffe/c/175',
+        'https://www.obi.at/bodenbelaege/laminat-parkett-vinylboeden/c/893',
+#        'https://www.obi.at/bauen/bauholz/c/169',
+#        'https://www.obi.at/bauen/fliesen/c/308',
+#        'https://www.obi.at/bauen/fliesenzubehoer/c/312',
+ #       'https://www.obi.at/bauen/gartenbau/c/336'
+        #        'https://www.obi.at/bauen/tueren/c/1153'
     ]
     currentCat = "";
     mainCat = "";
@@ -37,7 +43,7 @@ class ObiSpider(scrapy.Spider):
                     end
                  end
                  if hide then
-                    local link = splash:select('div.hidden-phone > a:nth-child(2).btn')
+                    local link = splash:select('div.hidden-phone > a.btn:nth-child(2)')
                     link:mouse_click()
                     assert(splash:wait(3))
                     link = splash:select('ul.first-level.dashed > li:nth-child(' .. splash.args.sub_child .. ') > a:nth-child(1)')
@@ -45,18 +51,19 @@ class ObiSpider(scrapy.Spider):
                       link:mouse_click()
                       assert(splash:wait(3))
                     end
+                    if not link then
+                        link = splash:select('div.hidden-phone > a.btn.colored.dark')
+                        link:mouse_click()
+                        assert(splash:wait(3))
+                        link = splash:select('ul.first-level.big > li:nth-child(' .. splash.args.child .. ') > a:nth-child(1)')
+                        link:mouse_click()
+                        assert(splash:wait(3))
+                        link = splash:select('ul.first-level.dashed > li:nth-child(1) > a:nth-child(1)')
+                        link:mouse_click()
+                        assert(splash:wait(3))
+                    end                    
                  end
-                 if not link then
-                    link = splash:select('div.hidden-phone > a.btn.colored.dark')
-                    link:mouse_click()
-                    assert(splash:wait(3))
-                    link = splash:select('ul.first-level.big > li:nth-child(' .. splash.args.child .. ') > a:nth-child(1)')
-                    link:mouse_click()
-                    assert(splash:wait(3))
-                    link = splash:select('ul.first-level.dashed > li:nth-child(1) > a:nth-child(1)')
-                    link:mouse_click()
-                    assert(splash:wait(3))
-                 end
+
                  assert(splash:wait(3))
                   return {
                     url = splash:url(),
@@ -96,7 +103,10 @@ class ObiSpider(scrapy.Spider):
                 'mainCategory': self.mainCat
             }
 
-        yield SplashRequest(url=response.url, callback=self.parse, endpoint="execute", args={'lua_source': self.script, 'child':self.child , 'sub_child':self.sub_child})       
+      #  yield SplashRequest(url=response.url, dont_filter=True,callback=self.parse, endpoint="execute", args={'lua_source': self.script, 'child':str(self.child) , 'sub_child':str(self.sub_child)})       
+        yield SplashRequest(url=response.url, callback=self.parse, endpoint="execute", args={'lua_source': self.script, 'child':str(self.child) , 'sub_child':str(self.sub_child)})       
 
             #sudo docker run -p 8050:8050 scrapinghub/splash
             #mongoimport --db bcp_local --collection hornbach_components --file hornbach3.json --jsonArray
+            #scrapy crawl obi -o obi.json
+            #python3 -m splash.server
