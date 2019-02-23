@@ -83,20 +83,16 @@ export class AppComponent implements OnInit {
     );
   }
   getMatchedItems(components: any[]) {
-
-    var duplicates = this.getDuplicates(components);
-    var duplicatedComponents = components.filter((c) => duplicates.includes(c['article-title']));
-    var duplicatedComponentsDiffComp = duplicatedComponents.filter((item, index, self) =>
+    var uniqueCompanies = components.filter((item, index, self) =>
       index === self.findIndex((t) => (
         t.company === item.company && t['article-title'] === item['article-title']
       ))
     );
-    
-    var duplicatesDiff = this.getDuplicates(duplicatedComponentsDiffComp);
-    var duplicatedComponentsDiff = duplicatedComponentsDiffComp.filter((c) => duplicatesDiff.includes(c['article-title']));
+    var duplicatedArticle = this.getDuplicates(uniqueCompanies);
+    var duplicatedComponents = uniqueCompanies.filter((c) => duplicatedArticle.includes(c['article-title']));
 
-    var output = duplicatesDiff.map(data => {
-      var arrOut = duplicatedComponentsDiff.reduce((acc,curVal) => {
+    var output = duplicatedArticle.map(data => {
+      var arrOut = duplicatedComponents.reduce((acc,curVal) => {
         if (data == curVal['article-title']) {
           acc.push(curVal);
         }
@@ -104,7 +100,6 @@ export class AppComponent implements OnInit {
       }, []);
       return {component_match:arrOut};
     });
-    console.log(output);
     return output;
   }
   getDuplicates(components: any[]){

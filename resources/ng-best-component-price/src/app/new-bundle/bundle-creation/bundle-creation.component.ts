@@ -53,9 +53,6 @@ export class BundleCreationComponent implements OnInit {
   }
 
   selectedOptionsChange(event) {
-    console.log(this.selectedOptions1);
-    console.log(this.selectedOptions2);
-    console.log(this.selectedOptions3);
     event.forEach(element => {
       if (element.name == 'obi') {
         this.selectedObiPrice = element.price;
@@ -112,9 +109,7 @@ export class BundleCreationComponent implements OnInit {
   }
 
   createBundle() {
-    console.log(this.bundle);
     this.price = this.bundle.reduce((a, b) => {
-      console.log(b);
       var componentPrice = Number(b.price.replace(/[^0-9.,]+/g, "").replace(/,/g, '.'));
       // check if product is from obi
       if (b.company == "/assets/obi-print.jpg") {
@@ -122,7 +117,6 @@ export class BundleCreationComponent implements OnInit {
       } else {
         this.hornbachOverallPrice += componentPrice;
       }
-      console.log(componentPrice);
       return a + componentPrice;
     }, 0);
     this.overAllPriceWithDeliveryCost = this.price;
@@ -135,13 +129,10 @@ export class BundleCreationComponent implements OnInit {
     this.bundle.forEach(
       data => {
         var number2 = Number(data.price.replace(/[^0-9.,]+/g, "").replace(/,/g, '.'));
-
-        console.log(number2);
       }
     )
     this.distinctCompanies = [...new Set(this.bundle.map(item => item.company))];
     this.helperService.showBundleButtonAppearance(false);
-    console.log(this.distinctCompanies);
     this.bundleService.createBundle()
       .subscribe(
         res => {

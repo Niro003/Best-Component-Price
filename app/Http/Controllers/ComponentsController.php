@@ -36,15 +36,14 @@ class ComponentsController extends Controller
             ]);
         });
     }
+
     public function searchComponentsByTitle($title) {
         $hornbach_components = Hornbach_component::where('article-title', 'like', $title . '%')->orderBy('price','desc')->get()->toArray();
         $obi_components = Obi_component::where('article-title', 'like', $title . '%')->get()->toArray();
         $this->addAdditionalColumnCompany($hornbach_components, $obi_components);
         return array_merge($obi_components,$hornbach_components);
     }
-    public function searchComponents($title){
-        return DB::collection('hornbach_components')->where('article-title', 'like', $title . '%')->get();
-    }
+
     public function searchComponentsByCategory($category){
         $hornbach_components = Hornbach_component::where('category', '=', $category)->get()->toArray();
         $obi_components = Obi_component::where('category', '=', $category)->get()->toArray();
@@ -65,12 +64,15 @@ class ComponentsController extends Controller
         $component->image = $request->image;
         $component['article-title'] = $request['article-title'];
         $component->company = $request->company;
-        $component->link = 'test';
+        $component->link = $request->link;
         return $component->save() ? "ok" : "error";
     }
     private function addColumn(&$array,$column,$val) {
         foreach ($array as &$component) {
             $component[$column] = $val;
         }
+    }
+    public function searchComponents($title){
+        return DB::collection('hornbach_components')->where('article-title', 'like', $title . '%')->get();
     }
 }

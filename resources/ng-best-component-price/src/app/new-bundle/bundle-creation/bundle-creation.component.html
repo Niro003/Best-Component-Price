@@ -11,27 +11,27 @@
   <mat-selection-list #priceList1 [(ngModel)]="selectedOptions1" (ngModelChange)="selectedOptionsChange($event)">
     <mat-list-option [disabled]="obiRow1" [value]="{row:1,name:'obi',price:obiOverallPrice}">
       Overall Price if you buy it from place obi without delivery charges (public transport, walking):
-      {{obiOverallPrice}} €
+      {{obiOverallPrice | number : '1.0-2'}} €
     </mat-list-option>
     <mat-list-option [disabled]="hornbachRow1" [value]="{row:1,name:'hornbach',price:hornbachOverallPrice}">
       Overall Price if you buy it from place hornbach without delivery charges (public transport, walking):
-      {{hornbachOverallPrice}} €
+      {{hornbachOverallPrice | number : '1.0-2'}} €
     </mat-list-option>
   </mat-selection-list>
-  <h4 mat-line>Overall Price without delivery charges: {{price}} €</h4>
+  <h4 mat-line>Overall Price without delivery charges: {{price | number : '1.0-2'}} €</h4>
   <mat-divider></mat-divider>
   <h3 mat-subheader>Cost by online order</h3>
 
   <mat-selection-list #priceList2 [(ngModel)]="selectedOptions2" (ngModelChange)="selectedOptionsChange($event)">
     <mat-list-option [disabled]="obiRow2" [value]="{row:2,name:'obi',price:obiOverallPrice+obiDevliveryCost}">
-      Overall Price by online order with delivery charges from obi: {{obiOverallPrice+obiDevliveryCost}} €
+      Overall Price by online order with delivery charges from obi: {{obiOverallPrice+obiDevliveryCost | number : '1.0-2'}} €
     </mat-list-option>
     <mat-list-option [disabled]="hornbachRow2" [value]="{row:2,name:'hornbach',price:hornbachOverallPrice+hornbachDeliveryCost}">
       Overall Price by online order with delivery charges from hornbach:
-      {{hornbachOverallPrice+hornbachDeliveryCost}} €
+      {{hornbachOverallPrice+hornbachDeliveryCost | number : '1.0-2'}} €
     </mat-list-option>
   </mat-selection-list>
-  <h4 mat-line>Overall Price by online order with delivery charges from all places: {{overAllPriceWithDeliveryCost}}
+  <h4 mat-line>Overall Price by online order with delivery charges from all places: {{overAllPriceWithDeliveryCost | number : '1.0-2'}}
     €</h4>
   <mat-divider></mat-divider>
   <h3 mat-subheader>Cost if you buy at store</h3>
@@ -39,15 +39,15 @@
   <mat-selection-list #priceList3 [(ngModel)]="selectedOptions3" (ngModelChange)="selectedOptionsChange($event)">
     <mat-list-option [disabled]="obiRow3" [value]="{row:3,name:'obi',price:obiOverallPrice+(costPerKM*30.00)*2}">
       Overall Price if you buy everything what available at the next obi-store:
-      {{obiOverallPrice+(costPerKM*30.00)*2}} €
+      {{obiOverallPrice+(costPerKM*30.00)*2 | number : '1.0-2'}} €
     </mat-list-option>
     <mat-list-option [disabled]="hornbachRow3" [value]="{row:3,name:'hornbach',price:hornbachOverallPrice+(costPerKM*25.00)*2}">
       Overall Price if you buy everything what available at the next hornbach-store:
-      {{hornbachOverallPrice+(costPerKM*25.00)*2}} €
+      {{hornbachOverallPrice+(costPerKM*25.00)*2 | number : '1.0-2'}} €
     </mat-list-option>
   </mat-selection-list>
   <h4 mat-line>Overall Price if you buy everything what available at all stores:
-    {{price+(costPerKM*25)*2+(costPerKM*30.00)*2}} €</h4>
+    {{price+(costPerKM*25)*2+(costPerKM*30.00)*2 | number : '1.0-2'}} €</h4>
   <mat-divider></mat-divider>
 
   <h3 mat-subheader>Your Selected overall cost</h3>

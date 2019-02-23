@@ -7,13 +7,13 @@ class ObiSpider(scrapy.Spider):
     sub_child = 2;
     child = 2;
     start_urls = [
-#        'https://www.obi.at/bauen/baustoffe/c/175',
-        'https://www.obi.at/bodenbelaege/laminat-parkett-vinylboeden/c/893',
-#        'https://www.obi.at/bauen/bauholz/c/169',
-#        'https://www.obi.at/bauen/fliesen/c/308',
-#        'https://www.obi.at/bauen/fliesenzubehoer/c/312',
- #       'https://www.obi.at/bauen/gartenbau/c/336'
-        #        'https://www.obi.at/bauen/tueren/c/1153'
+         'https://www.obi.at/bauen/baustoffe/c/175',
+         'https://www.obi.at/bodenbelaege/laminat-parkett-vinylboeden/c/893',
+         'https://www.obi.at/bauen/bauholz/c/169',
+         'https://www.obi.at/bauen/fliesen/c/308',
+         'https://www.obi.at/bauen/fliesenzubehoer/c/312',
+         'https://www.obi.at/bauen/gartenbau/c/336',
+         'https://www.obi.at/bauen/tueren/c/1153'
     ]
     currentCat = "";
     mainCat = "";

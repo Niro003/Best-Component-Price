@@ -17,15 +17,12 @@ export class ComponentRecentlyLookedComponent implements OnInit {
     this.pageEvent = new PageEvent();
     this.pageEvent.pageIndex = 0;
     this.pageEvent.pageSize = 1;
-
     this.components = JSON.parse(localStorage.getItem('components'));
     this.components.reverse();
     this.pageEvent.length=this.components.length;
-
   }
   onPageChange(event){
     this.pageEvent = event;
-    console.log(event);
   }
   setPageSizeOptions(setPageSizeOptionsInput: string) {
     this.pageSizeOptions = setPageSizeOptionsInput.split(',').map(str => +str);
